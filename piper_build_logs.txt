@@ -1,0 +1,2672 @@
+CMake Warning:
+  Ignoring extra path from command line:
+
+   "."
+
+
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at /usr/share/cmake-3.25/Modules/ExternalProject.cmake:3075 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/ExternalProject.cmake:4185 (_ep_add_download_command)
+  CMakeLists.txt:33 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.25/Modules/ExternalProject.cmake:3075 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/ExternalProject.cmake:4185 (_ep_add_download_command)
+  CMakeLists.txt:49 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.25/Modules/ExternalProject.cmake:3075 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/ExternalProject.cmake:4185 (_ep_add_download_command)
+  CMakeLists.txt:63 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azm/projects/piper/piper/build
+
+
+[  3%] Creating directories for 'piper_phonemize_external'
+[  6%] Performing download step (download, verify and extract) for 'piper_phonemize_external'
+-- Downloading...
+   dst='/home/azm/projects/piper/piper/build/p/src/master.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/rhasspy/piper-phonemize/archive/refs/heads/master.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/azm/projects/piper/piper/build/p/src/master.zip'
+     dst='/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 10%] No update step for 'piper_phonemize_external'
+[ 13%] No patch step for 'piper_phonemize_external'
+[ 16%] Performing configure step for 'piper_phonemize_external'
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Downloading https://github.com/microsoft/onnxruntime/releases/download/v1.14.1/onnxruntime-linux-x64-1.14.1.tgz
+CMake Warning (dev) at /usr/share/cmake-3.25/Modules/ExternalProject.cmake:3075 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.25/Modules/ExternalProject.cmake:4185 (_ep_add_download_command)
+  CMakeLists.txt:104 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build
+[ 20%] Performing build step for 'piper_phonemize_external'
+[  5%] Creating directories for 'espeak_ng_external'
+[ 10%] Performing download step (download, verify and extract) for 'espeak_ng_external'
+-- Downloading...
+   dst='/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/0f65aa301e0d6bae5e172cc74197d32a6182200f.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/rhasspy/espeak-ng/archive/0f65aa301e0d6bae5e172cc74197d32a6182200f.zip'
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 25% complete]
+-- [download 26% complete]
+-- [download 27% complete]
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 45% complete]
+-- [download 46% complete]
+-- [download 47% complete]
+-- [download 48% complete]
+-- [download 49% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 52% complete]
+-- [download 53% complete]
+-- [download 54% complete]
+-- [download 55% complete]
+-- [download 56% complete]
+-- [download 57% complete]
+-- [download 58% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 65% complete]
+-- [download 66% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 69% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 80% complete]
+-- [download 81% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 84% complete]
+-- [download 85% complete]
+-- [download 86% complete]
+-- [download 87% complete]
+-- [download 88% complete]
+-- [download 89% complete]
+-- [download 90% complete]
+-- [download 91% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 97% complete]
+-- [download 98% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- Downloading... done
+-- extracting...
+     src='/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/0f65aa301e0d6bae5e172cc74197d32a6182200f.zip'
+     dst='/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 15%] No update step for 'espeak_ng_external'
+[ 21%] No patch step for 'espeak_ng_external'
+[ 26%] Performing configure step for 'espeak_ng_external'
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Configuration:
+--   shared: ON
+--   mbrola: OFF (MBROLA_BIN-NOTFOUND)
+--   libsonic: OFF (sonic /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/_deps/sonic-git-src)
+--   libpcaudio: OFF (/usr/lib/x86_64-linux-gnu/libpcaudio.so /usr/include)
+--   klatt: OFF
+--   speech-player: OFF
+--   async: OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build
+[ 31%] Performing build step for 'espeak_ng_external'
+[  0%] Building C object CMakeFiles/sonic.dir/_deps/sonic-git-src/sonic.c.o
+[  0%] Built target sonic
+[  1%] Building C object src/ucd-tools/CMakeFiles/ucd.dir/src/case.c.o
+[  1%] Building C object src/ucd-tools/CMakeFiles/ucd.dir/src/categories.c.o
+[  2%] Building C object src/ucd-tools/CMakeFiles/ucd.dir/src/ctype.c.o
+[  3%] Building C object src/ucd-tools/CMakeFiles/ucd.dir/src/proplist.c.o
+[  3%] Building C object src/ucd-tools/CMakeFiles/ucd.dir/src/scripts.c.o
+[  4%] Building C object src/ucd-tools/CMakeFiles/ucd.dir/src/tostring.c.o
+[  5%] Linking C static library libucd.a
+[  5%] Built target ucd
+[  5%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/common.c.o
+[  6%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/mnemonics.c.o
+[  7%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/error.c.o
+[  7%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/ieee80.c.o
+[  8%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/compiledata.c.o
+[  8%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/compiledict.c.o
+[  9%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/dictionary.c.o
+[ 10%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/encoding.c.o
+[ 10%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/intonation.c.o
+[ 11%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/langopts.c.o
+[ 11%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/numbers.c.o
+[ 12%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/phoneme.c.o
+[ 13%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/phonemelist.c.o
+[ 13%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/readclause.c.o
+[ 14%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/setlengths.c.o
+[ 14%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/soundicon.c.o
+[ 15%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/spect.c.o
+[ 16%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/ssml.c.o
+[ 16%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/synthdata.c.o
+[ 17%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/synthesize.c.o
+[ 17%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/tr_languages.c.o
+[ 18%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/translate.c.o
+[ 19%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/translateword.c.o
+[ 19%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/voices.c.o
+/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/src/libespeak-ng/voices.c: In function ‘LoadVoice’:
+/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/src/libespeak-ng/voices.c:428:14: warning: unused variable ‘name2’ [-Wunused-variable]
+  428 |         char name2[80];
+      |              ^~~~~
+/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external/src/libespeak-ng/voices.c:427:14: warning: unused variable ‘name1’ [-Wunused-variable]
+  427 |         char name1[40];
+      |              ^~~~~
+[ 20%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/wavegen.c.o
+[ 20%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/speech.c.o
+[ 21%] Building C object src/libespeak-ng/CMakeFiles/espeak-ng.dir/espeak_api.c.o
+[ 22%] Linking C shared library libespeak-ng.so
+[ 22%] Built target espeak-ng
+[ 22%] Building C object src/CMakeFiles/espeak-ng-bin.dir/espeak-ng.c.o
+[ 23%] Linking C executable espeak-ng
+[ 23%] Built target espeak-ng-bin
+[ 24%] Compile intonations
+Compiled 30 intonation tunes: 0 errors.
+[ 24%] Compile phonemes
+Compiling phoneme data: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/../phsource/phonemes
+
+Refs 4484,  Reused 3509
+Compiled phonemes: 0 errors.
+[ 24%] Generating espeak-ng-data/af_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/af_dict'
+Using phonemetable: 'af'
+Compiling: 'af_list'
+	1584 entries
+Compiling: 'af_emoji'
+	1639 entries
+Compiling: 'af_rules'
+	5202 rules, 60 groups (0)
+
+[ 25%] Generating espeak-ng-data/am_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/am_dict'
+Using phonemetable: 'am'
+Compiling: 'am_list'
+	31 entries
+Compiling: 'am_emoji'
+	1639 entries
+Compiling: 'am_rules'
+	345 rules, 7 groups (0)
+
+[ 25%] Generating espeak-ng-data/an_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/an_dict'
+Using phonemetable: 'an'
+Compiling: 'an_list'
+	484 entries
+Compiling: 'an_rules'
+	184 rules, 29 groups (0)
+
+[ 26%] Generating espeak-ng-data/ar_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ar_dict'
+Using phonemetable: 'ar'
+Compiling: 'ar_listx'
+	30089 entries
+Compiling: 'ar_list'
+	252 entries
+Compiling: 'ar_emoji'
+	1639 entries
+Compiling: 'ar_rules'
+	383 rules, 39 groups (37)
+
+[ 27%] Generating espeak-ng-data/as_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/as_dict'
+Using phonemetable: 'as'
+Compiling: 'as_list'
+	209 entries
+Compiling: 'as_rules'
+	146 rules, 66 groups (66)
+
+[ 27%] Generating espeak-ng-data/az_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/az_dict'
+Using phonemetable: 'az'
+Compiling: 'az_list'
+	84 entries
+Compiling: 'az_emoji'
+	1639 entries
+Compiling: 'az_rules'
+	58 rules, 34 groups (0)
+
+[ 28%] Generating espeak-ng-data/ba_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ba_dict'
+Using phonemetable: 'ba'
+Compiling: 'ba_list'
+	70 entries
+Compiling: 'ba_rules'
+	52 rules, 44 groups (0)
+
+[ 28%] Generating espeak-ng-data/be_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/be_dict'
+Using phonemetable: 'be'
+Compiling: 'be_list'
+	77 entries
+Compiling: 'be_rules'
+	83 rules, 33 groups (32)
+
+[ 29%] Generating espeak-ng-data/bg_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/bg_dict'
+Using phonemetable: 'bg'
+Compiling: 'bg_listx'
+	2790 entries
+Compiling: 'bg_list'
+	231 entries
+Compiling: 'bg_emoji'
+	1639 entries
+Compiling: 'bg_rules'
+	118 rules, 31 groups (30)
+
+[ 30%] Generating espeak-ng-data/bn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/bn_dict'
+Using phonemetable: 'bn'
+Compiling: 'bn_list'
+	380 entries
+Compiling: 'bn_emoji'
+	1639 entries
+Compiling: 'bn_rules'
+	168 rules, 68 groups (67)
+
+[ 30%] Generating espeak-ng-data/bpy_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/bpy_dict'
+Using phonemetable: 'bpy'
+Compiling: 'bpy_list'
+	179 entries
+Compiling: 'bpy_rules'
+	212 rules, 63 groups (63)
+
+[ 31%] Generating espeak-ng-data/bs_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/bs_dict'
+Using phonemetable: 'hr'
+Compiling: 'bs_list'
+	613 entries
+Compiling: 'bs_emoji'
+	1635 entries
+Compiling: 'bs_rules'
+	112 rules, 34 groups (0)
+
+[ 31%] Generating espeak-ng-data/ca_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ca_dict'
+Using phonemetable: 'ca'
+Compiling: 'ca_list'
+	192 entries
+Compiling: 'ca_emoji'
+	1639 entries
+Compiling: 'ca_rules'
+	134 rules, 28 groups (0)
+
+[ 32%] Generating espeak-ng-data/chr_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/chr_dict'
+Using phonemetable: 'chr'
+Compiling: 'chr_list'
+	0 entries
+Compiling: 'chr_rules'
+	198 rules, 27 groups (0)
+
+[ 33%] Generating espeak-ng-data/cmn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/cmn_dict'
+Using phonemetable: 'cmn'
+Compiling: 'cmn_list'
+	3859 entries
+Compiling: 'cmn_listx'
+	77860 entries
+Compiling: 'cmn_emoji'
+	1639 entries
+Compiling: 'cmn_rules'
+	136 rules, 28 groups (0)
+
+[ 33%] Generating espeak-ng-data/cs_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/cs_dict'
+Using phonemetable: 'cs'
+Compiling: 'cs_list'
+	357 entries
+Compiling: 'cs_emoji'
+	1639 entries
+Compiling: 'cs_rules'
+	506 rules, 48 groups (0)
+
+[ 34%] Generating espeak-ng-data/cv_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/cv_dict'
+Using phonemetable: 'cv'
+Compiling: 'cv_list'
+	0 entries
+Compiling: 'cv_rules'
+	39 rules, 37 groups (0)
+
+[ 34%] Generating espeak-ng-data/cy_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/cy_dict'
+Using phonemetable: 'cy'
+Compiling: 'cy_list'
+	166 entries
+Compiling: 'cy_emoji'
+	1636 entries
+Compiling: 'cy_rules'
+	210 rules, 27 groups (0)
+
+[ 35%] Generating espeak-ng-data/da_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/da_dict'
+Using phonemetable: 'da'
+Compiling: 'da_list'
+	11152 entries
+Compiling: 'da_emoji'
+	1639 entries
+Compiling: 'da_rules'
+	9269 rules, 56 groups (0)
+
+[ 36%] Generating espeak-ng-data/de_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/de_dict'
+Using phonemetable: 'de'
+Compiling: 'de_list'
+	940 entries
+Compiling: 'de_emoji'
+	1688 entries
+Compiling: 'de_rules'
+	1330 rules, 34 groups (0)
+
+[ 36%] Generating espeak-ng-data/el_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/el_dict'
+Using phonemetable: 'el'
+Compiling: 'el_list'
+	379 entries
+Compiling: 'el_emoji'
+	1639 entries
+Compiling: 'el_rules'
+	182 rules, 27 groups (26)
+
+[ 37%] Generating espeak-ng-data/en_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/en_dict'
+Using phonemetable: 'en'
+Compiling: 'en_list'
+	5481 entries
+Compiling: 'en_emoji'
+	1690 entries
+Compiling: 'en_rules'
+	6744 rules, 103 groups (0)
+
+[ 37%] Generating espeak-ng-data/eo_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/eo_dict'
+Using phonemetable: 'eo'
+Compiling: 'eo_list'
+	242 entries
+Compiling: 'eo_rules'
+	130 rules, 27 groups (0)
+
+[ 38%] Generating espeak-ng-data/es_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/es_dict'
+Using phonemetable: 'es'
+Compiling: 'es_list'
+	370 entries
+Compiling: 'es_emoji'
+	1639 entries
+Compiling: 'es_rules'
+	192 rules, 29 groups (0)
+
+[ 39%] Generating espeak-ng-data/et_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/et_dict'
+Using phonemetable: 'et'
+Compiling: 'et_list'
+	303 entries
+Compiling: 'et_emoji'
+	1639 entries
+Compiling: 'et_rules'
+	221 rules, 31 groups (0)
+
+[ 39%] Generating espeak-ng-data/eu_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/eu_dict'
+Using phonemetable: 'eu'
+Compiling: 'eu_list'
+	194 entries
+Compiling: 'eu_emoji'
+	1639 entries
+Compiling: 'eu_rules'
+	159 rules, 27 groups (0)
+
+[ 40%] Generating espeak-ng-data/fa_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/fa_dict'
+Using phonemetable: 'fa'
+Compiling: 'fa_list'
+	13202 entries
+Compiling: 'fa_emoji'
+	1649 entries
+Compiling: 'fa_rules'
+	3922 rules, 93 groups (45)
+
+[ 40%] Generating espeak-ng-data/fi_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/fi_dict'
+Using phonemetable: 'fi'
+Compiling: 'fi_list'
+	332 entries
+Compiling: 'fi_emoji'
+	1639 entries
+Compiling: 'fi_rules'
+	144 rules, 29 groups (0)
+
+[ 41%] Generating espeak-ng-data/fr_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/fr_dict'
+Using phonemetable: 'fr'
+Compiling: 'fr_list'
+	885 entries
+Compiling: 'fr_emoji'
+	1638 entries
+Compiling: 'fr_rules'
+	1207 rules, 33 groups (0)
+
+[ 42%] Generating espeak-ng-data/ga_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ga_dict'
+Using phonemetable: 'ga'
+Compiling: 'ga_list'
+	250 entries
+Compiling: 'ga_emoji'
+	1636 entries
+Compiling: 'ga_rules'
+	481 rules, 34 groups (0)
+
+[ 42%] Generating espeak-ng-data/gd_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/gd_dict'
+Using phonemetable: 'gd'
+Compiling: 'gd_list'
+	104 entries
+Compiling: 'gd_emoji'
+	1636 entries
+Compiling: 'gd_rules'
+	252 rules, 35 groups (0)
+
+[ 43%] Generating espeak-ng-data/gn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/gn_dict'
+Using phonemetable: 'gn'
+Compiling: 'gn_list'
+	150 entries
+Compiling: 'gn_rules'
+	58 rules, 48 groups (0)
+
+[ 43%] Generating espeak-ng-data/grc_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/grc_dict'
+Using phonemetable: 'grc'
+Compiling: 'grc_list'
+	22 entries
+Compiling: 'grc_rules'
+	136 rules, 55 groups (27)
+
+[ 44%] Generating espeak-ng-data/gu_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/gu_dict'
+Using phonemetable: 'gu'
+Compiling: 'gu_list'
+	174 entries
+Compiling: 'gu_emoji'
+	1639 entries
+Compiling: 'gu_rules'
+	269 rules, 79 groups (77)
+
+[ 45%] Generating espeak-ng-data/hak_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/hak_dict'
+Using phonemetable: 'hak'
+Compiling: 'hak_list'
+	22 entries
+Compiling: 'hak_rules'
+	261 rules, 27 groups (0)
+
+[ 45%] Generating espeak-ng-data/haw_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/haw_dict'
+Using phonemetable: 'haw'
+Compiling: 'haw_list'
+	100 entries
+Compiling: 'haw_rules'
+	40 rules, 30 groups (0)
+
+[ 46%] Generating espeak-ng-data/he_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/he_dict'
+Using phonemetable: 'he'
+Compiling: 'he_listx'
+	140 entries
+Compiling: 'he_list'
+	90 entries
+Compiling: 'he_rules'
+	395 rules, 37 groups (0)
+
+[ 46%] Generating espeak-ng-data/hi_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/hi_dict'
+Using phonemetable: 'hi'
+Compiling: 'hi_list'
+	316 entries
+Compiling: 'hi_emoji'
+	1639 entries
+Compiling: 'hi_rules'
+	301 rules, 87 groups (86)
+
+[ 47%] Generating espeak-ng-data/hr_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/hr_dict'
+Using phonemetable: 'hr'
+Compiling: 'hr_list'
+	613 entries
+Compiling: 'hr_emoji'
+	1639 entries
+Compiling: 'hr_rules'
+	112 rules, 34 groups (0)
+
+[ 48%] Generating espeak-ng-data/ht_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ht_dict'
+Using phonemetable: 'ht'
+Compiling: 'ht_list'
+	50 entries
+Compiling: 'ht_rules'
+	36 rules, 32 groups (0)
+
+[ 48%] Generating espeak-ng-data/hu_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/hu_dict'
+Using phonemetable: 'hu'
+Compiling: 'hu_list'
+	5331 entries
+Compiling: 'hu_emoji'
+	1639 entries
+Compiling: 'hu_rules'
+	3019 rules, 46 groups (0)
+
+[ 49%] Generating espeak-ng-data/hy_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/hy_dict'
+Using phonemetable: 'hy'
+Compiling: 'hy_list'
+	170 entries
+Compiling: 'hy_emoji'
+	1639 entries
+Compiling: 'hy_rules'
+	96 rules, 38 groups (38)
+
+[ 49%] Generating espeak-ng-data/ia_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ia_dict'
+Using phonemetable: 'ia'
+Compiling: 'ia_listx'
+	15620 entries
+Compiling: 'ia_list'
+	90 entries
+Compiling: 'ia_rules'
+	79 rules, 26 groups (0)
+
+[ 50%] Generating espeak-ng-data/id_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/id_dict'
+Using phonemetable: 'id'
+Compiling: 'id_list'
+	132 entries
+Compiling: 'id_emoji'
+	1639 entries
+Compiling: 'id_rules'
+	78 rules, 27 groups (0)
+
+[ 50%] Generating espeak-ng-data/io_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/io_dict'
+Using phonemetable: 'eo'
+Compiling: 'io_list'
+	50 entries
+Compiling: 'io_rules'
+	78 rules, 26 groups (0)
+
+[ 51%] Generating espeak-ng-data/is_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/is_dict'
+Using phonemetable: 'is'
+Compiling: 'is_list'
+	327 entries
+Compiling: 'is_emoji'
+	1639 entries
+Compiling: 'is_rules'
+	205 rules, 37 groups (0)
+
+[ 51%] Generating espeak-ng-data/it_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/it_dict'
+Using phonemetable: 'it'
+Compiling: 'it_listx'
+	4297 entries
+Compiling: 'it_list'
+	5135 entries
+Compiling: 'it_emoji'
+	1639 entries
+Compiling: 'it_rules'
+	712 rules, 30 groups (0)
+
+[ 52%] Generating espeak-ng-data/ja_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ja_dict'
+Using phonemetable: 'ja'
+Compiling: 'ja_list'
+	23 entries
+Compiling: 'ja_emoji'
+	1639 entries
+Compiling: 'ja_rules'
+	457 rules, 53 groups (0)
+
+[ 53%] Generating espeak-ng-data/jbo_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/jbo_dict'
+Using phonemetable: 'jbo'
+Compiling: 'jbo_list'
+	85 entries
+Compiling: 'jbo_rules'
+	64 rules, 27 groups (0)
+
+[ 53%] Generating espeak-ng-data/ka_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ka_dict'
+Using phonemetable: 'ka'
+Compiling: 'ka_list'
+	148 entries
+Compiling: 'ka_emoji'
+	1639 entries
+Compiling: 'ka_rules'
+	50 rules, 44 groups (43)
+
+[ 54%] Generating espeak-ng-data/kk_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/kk_dict'
+Using phonemetable: 'kk'
+Compiling: 'kk_list'
+	51 entries
+Compiling: 'kk_emoji'
+	0 entries
+Compiling: 'kk_rules'
+	42 rules, 42 groups (36)
+
+[ 54%] Generating espeak-ng-data/kl_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/kl_dict'
+Using phonemetable: 'kl'
+Compiling: 'kl_list'
+	102 entries
+Compiling: 'kl_rules'
+	80 rules, 30 groups (0)
+
+[ 55%] Generating espeak-ng-data/kn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/kn_dict'
+Using phonemetable: 'kn'
+Compiling: 'kn_list'
+	262 entries
+Compiling: 'kn_emoji'
+	1639 entries
+Compiling: 'kn_rules'
+	115 rules, 55 groups (50)
+
+[ 55%] Generating espeak-ng-data/kok_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/kok_dict'
+Using phonemetable: 'kok'
+Compiling: 'kok_list'
+	189 entries
+Compiling: 'kok_rules'
+	337 rules, 88 groups (0)
+
+[ 56%] Generating espeak-ng-data/ko_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ko_dict'
+Using phonemetable: 'ko'
+Compiling: 'ko_list'
+	133 entries
+Compiling: 'ko_emoji'
+	1639 entries
+Compiling: 'ko_rules'
+	128 rules, 68 groups (40)
+
+[ 57%] Generating espeak-ng-data/ku_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ku_dict'
+Using phonemetable: 'ku'
+Compiling: 'ku_list'
+	106 entries
+Compiling: 'ku_rules'
+	46 rules, 32 groups (0)
+
+[ 57%] Generating espeak-ng-data/ky_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ky_dict'
+Using phonemetable: 'ky'
+Compiling: 'ky_list'
+	131 entries
+Compiling: 'ky_emoji'
+	1636 entries
+Compiling: 'ky_rules'
+	113 rules, 33 groups (0)
+
+[ 58%] Generating espeak-ng-data/la_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/la_dict'
+Using phonemetable: 'la'
+Compiling: 'la_list'
+	215 entries
+Compiling: 'la_rules'
+	113 rules, 31 groups (0)
+
+[ 59%] Generating espeak-ng-data/lb_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/lb_dict'
+Using phonemetable: 'lb'
+Compiling: 'lb_list'
+	35646 entries
+Compiling: 'lb_emoji'
+	25 entries
+Compiling: 'lb_rules'
+	175 rules, 50 groups (0)
+
+[ 59%] Generating espeak-ng-data/lfn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/lfn_dict'
+Using phonemetable: 'base2'
+Compiling: 'lfn_list'
+	127 entries
+Compiling: 'lfn_rules'
+	76 rules, 27 groups (0)
+
+[ 60%] Generating espeak-ng-data/lt_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/lt_dict'
+Using phonemetable: 'lt'
+Compiling: 'lt_list'
+	167 entries
+Compiling: 'lt_emoji'
+	1639 entries
+Compiling: 'lt_rules'
+	210 rules, 38 groups (0)
+
+[ 60%] Generating espeak-ng-data/lv_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/lv_dict'
+Using phonemetable: 'lv'
+Compiling: 'lv_list'
+	887 entries
+Compiling: 'lv_emoji'
+	1639 entries
+Compiling: 'lv_rules'
+	1523 rules, 62 groups (0)
+
+[ 61%] Generating espeak-ng-data/mi_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/mi_dict'
+Using phonemetable: 'mi'
+Compiling: 'mi_list'
+	14 entries
+Compiling: 'mi_rules'
+	27 rules, 18 groups (0)
+
+[ 62%] Generating espeak-ng-data/mk_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/mk_dict'
+Using phonemetable: 'mk'
+Compiling: 'mk_list'
+	188 entries
+Compiling: 'mk_emoji'
+	1636 entries
+Compiling: 'mk_rules'
+	96 rules, 34 groups (31)
+
+[ 62%] Generating espeak-ng-data/ml_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ml_dict'
+Using phonemetable: 'ml'
+Compiling: 'ml_list'
+	165 entries
+Compiling: 'ml_emoji'
+	1639 entries
+Compiling: 'ml_rules'
+	141 rules, 45 groups (42)
+
+[ 63%] Generating espeak-ng-data/mr_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/mr_dict'
+Using phonemetable: 'mr'
+Compiling: 'mr_list'
+	235 entries
+Compiling: 'mr_emoji'
+	1639 entries
+Compiling: 'mr_rules'
+	298 rules, 87 groups (85)
+
+[ 63%] Generating espeak-ng-data/ms_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ms_dict'
+Using phonemetable: 'id'
+Compiling: 'ms_list'
+	703 entries
+Compiling: 'ms_emoji'
+	1639 entries
+Compiling: 'ms_rules'
+	125 rules, 27 groups (0)
+
+[ 64%] Generating espeak-ng-data/mto_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/mto_dict'
+Using phonemetable: 'mto'
+Compiling: 'mto_list'
+	185 entries
+Compiling: 'mto_rules'
+	56 rules, 23 groups (0)
+
+[ 65%] Generating espeak-ng-data/mt_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/mt_dict'
+Using phonemetable: 'mt'
+Compiling: 'mt_list'
+	232 entries
+Compiling: 'mt_rules'
+	99 rules, 31 groups (0)
+
+[ 65%] Generating espeak-ng-data/my_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/my_dict'
+Using phonemetable: 'my'
+Compiling: 'my_list'
+	11 entries
+Compiling: 'my_emoji'
+	1644 entries
+Compiling: 'my_rules'
+	78 rules, 64 groups (0)
+
+[ 66%] Generating espeak-ng-data/nci_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/nci_dict'
+Using phonemetable: 'nci'
+Compiling: 'nci_list'
+	16 entries
+Compiling: 'nci_rules'
+	41 rules, 21 groups (0)
+
+[ 66%] Generating espeak-ng-data/ne_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ne_dict'
+Using phonemetable: 'ne'
+Compiling: 'ne_list'
+	193 entries
+Compiling: 'ne_emoji'
+	1639 entries
+Compiling: 'ne_rules'
+	520 rules, 100 groups (92)
+
+[ 67%] Generating espeak-ng-data/nl_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/nl_dict'
+Using phonemetable: 'nl'
+Compiling: 'nl_list'
+	1768 entries
+Compiling: 'nl_emoji'
+	1639 entries
+Compiling: 'nl_rules'
+	826 rules, 37 groups (0)
+
+[ 67%] Generating espeak-ng-data/nog_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/nog_dict'
+Using phonemetable: 'nog'
+Compiling: 'nog_list'
+	37 entries
+Compiling: 'nog_rules'
+	180 rules, 33 groups (0)
+
+[ 68%] Generating espeak-ng-data/no_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/no_dict'
+Using phonemetable: 'no'
+Compiling: 'no_list'
+	236 entries
+Compiling: 'no_rules'
+	142 rules, 32 groups (0)
+
+[ 69%] Generating espeak-ng-data/om_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/om_dict'
+Using phonemetable: 'om'
+Compiling: 'om_list'
+	87 entries
+Compiling: 'om_rules'
+	53 rules, 33 groups (0)
+
+[ 69%] Generating espeak-ng-data/or_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/or_dict'
+Using phonemetable: 'or'
+Compiling: 'or_list'
+	198 entries
+Compiling: 'or_emoji'
+	1634 entries
+Compiling: 'or_rules'
+	197 rules, 67 groups (66)
+
+[ 70%] Generating espeak-ng-data/pap_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/pap_dict'
+Using phonemetable: 'base2'
+Compiling: 'pap_list'
+	86 entries
+Compiling: 'pap_rules'
+	68 rules, 32 groups (0)
+
+[ 71%] Generating espeak-ng-data/pa_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/pa_dict'
+Using phonemetable: 'pa'
+Compiling: 'pa_list'
+	196 entries
+Compiling: 'pa_emoji'
+	1636 entries
+Compiling: 'pa_rules'
+	283 rules, 68 groups (65)
+
+[ 72%] Generating espeak-ng-data/piqd_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/piqd_dict'
+Using phonemetable: 'piqd'
+Compiling: 'piqd_list'
+	36 entries
+Compiling: 'piqd_rules'
+	35 rules, 23 groups (0)
+
+[ 73%] Generating espeak-ng-data/pl_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/pl_dict'
+Using phonemetable: 'pl'
+Compiling: 'pl_list'
+	2956 entries
+Compiling: 'pl_emoji'
+	1639 entries
+Compiling: 'pl_rules'
+	886 rules, 46 groups (0)
+
+[ 73%] Generating espeak-ng-data/pt_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/pt_dict'
+Using phonemetable: 'pt-pt'
+Compiling: 'pt_list'
+	1458 entries
+Compiling: 'pt_emoji'
+	1639 entries
+Compiling: 'pt_rules'
+	1105 rules, 39 groups (0)
+
+[ 74%] Generating espeak-ng-data/py_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/py_dict'
+Using phonemetable: 'py'
+Compiling: 'py_list'
+	106 entries
+Compiling: 'py_rules'
+	31 rules, 28 groups (0)
+
+[ 74%] Generating espeak-ng-data/qdb_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/qdb_dict'
+Using phonemetable: 'qdb'
+Compiling: 'qdb_list'
+	169 entries
+Compiling: 'qdb_rules'
+	38 rules, 25 groups (0)
+
+[ 75%] Generating espeak-ng-data/quc_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/quc_dict'
+Using phonemetable: 'quc'
+Compiling: 'quc_list'
+	10 entries
+Compiling: 'quc_emoji'
+	0 entries
+Compiling: 'quc_rules'
+	35 rules, 27 groups (0)
+
+[ 76%] Generating espeak-ng-data/qu_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/qu_dict'
+Using phonemetable: 'qu'
+Compiling: 'qu_list'
+	76 entries
+Compiling: 'qu_rules'
+	39 rules, 28 groups (0)
+
+[ 76%] Generating espeak-ng-data/qya_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/qya_dict'
+Using phonemetable: 'qya'
+Compiling: 'qya_list'
+	38 entries
+Compiling: 'qya_rules'
+	70 rules, 38 groups (0)
+
+[ 77%] Generating espeak-ng-data/ro_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ro_dict'
+Using phonemetable: 'ro'
+Compiling: 'ro_list'
+	2167 entries
+Compiling: 'ro_emoji'
+	1639 entries
+Compiling: 'ro_rules'
+	349 rules, 32 groups (0)
+
+[ 77%] Generating espeak-ng-data/ru_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ru_dict'
+Using phonemetable: 'ru'
+Compiling: 'ru_listx'
+	804862 entries
+Compiling: 'ru_list'
+	284 entries
+Compiling: 'ru_emoji'
+	1639 entries
+Compiling: 'ru_rules'
+	430 rules, 34 groups (33)
+
+[ 78%] Generating espeak-ng-data/sd_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sd_dict'
+Using phonemetable: 'sd'
+Compiling: 'sd_list'
+	266 entries
+Compiling: 'sd_emoji'
+	1565 entries
+Compiling: 'sd_rules'
+	372 rules, 73 groups (47)
+
+[ 79%] Generating espeak-ng-data/shn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/shn_dict'
+Using phonemetable: 'shn'
+Compiling: 'shn_list'
+	4175 entries
+Compiling: 'shn_rules'
+	229 rules, 53 groups (0)
+
+[ 79%] Generating espeak-ng-data/si_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/si_dict'
+Using phonemetable: 'si'
+Compiling: 'si_list'
+	152 entries
+Compiling: 'si_emoji'
+	1648 entries
+Compiling: 'si_rules'
+	142 rules, 75 groups (73)
+
+[ 80%] Generating espeak-ng-data/sjn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sjn_dict'
+Using phonemetable: 'sjn'
+Compiling: 'sjn_list'
+	21 entries
+Compiling: 'sjn_rules'
+	71 rules, 40 groups (0)
+
+[ 80%] Generating espeak-ng-data/sk_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sk_dict'
+Using phonemetable: 'sk'
+Compiling: 'sk_list'
+	348 entries
+Compiling: 'sk_emoji'
+	1639 entries
+Compiling: 'sk_rules'
+	535 rules, 46 groups (0)
+
+[ 81%] Generating espeak-ng-data/sl_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sl_dict'
+Using phonemetable: 'sl'
+Compiling: 'sl_list'
+	196 entries
+Compiling: 'sl_emoji'
+	1639 entries
+Compiling: 'sl_rules'
+	108 rules, 31 groups (0)
+
+[ 82%] Generating espeak-ng-data/smj_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/smj_dict'
+Using phonemetable: 'smj'
+Compiling: 'smj_list'
+	2816 entries
+Compiling: 'smj_rules'
+	136 rules, 34 groups (0)
+
+[ 82%] Generating espeak-ng-data/sq_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sq_dict'
+Using phonemetable: 'sq'
+Compiling: 'sq_list'
+	132 entries
+Compiling: 'sq_emoji'
+	1636 entries
+Compiling: 'sq_rules'
+	100 rules, 29 groups (0)
+
+[ 83%] Generating espeak-ng-data/sr_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sr_dict'
+Using phonemetable: 'sr'
+Compiling: 'sr_list'
+	613 entries
+Compiling: 'sr_emoji'
+	1568 entries
+Compiling: 'sr_rules'
+	112 rules, 34 groups (0)
+
+[ 83%] Generating espeak-ng-data/sv_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sv_dict'
+Using phonemetable: 'sv'
+Compiling: 'sv_list'
+	341 entries
+Compiling: 'sv_emoji'
+	1639 entries
+Compiling: 'sv_rules'
+	697 rules, 30 groups (0)
+
+[ 84%] Generating espeak-ng-data/sw_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/sw_dict'
+Using phonemetable: 'sw'
+Compiling: 'sw_list'
+	170 entries
+Compiling: 'sw_emoji'
+	1638 entries
+Compiling: 'sw_rules'
+	63 rules, 27 groups (0)
+
+[ 85%] Generating espeak-ng-data/ta_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ta_dict'
+Using phonemetable: 'ta'
+Compiling: 'ta_list'
+	551 entries
+Compiling: 'ta_emoji'
+	1639 entries
+Compiling: 'ta_rules'
+	5040 rules, 33 groups (28)
+
+[ 85%] Generating espeak-ng-data/te_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/te_dict'
+Using phonemetable: 'te'
+Compiling: 'te_list'
+	155 entries
+Compiling: 'te_emoji'
+	1639 entries
+Compiling: 'te_rules'
+	112 rules, 56 groups (53)
+
+[ 86%] Generating espeak-ng-data/th_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/th_dict'
+Using phonemetable: 'th'
+Compiling: 'th_list'
+	10 entries
+Compiling: 'th_rules'
+	139 rules, 64 groups (0)
+
+[ 86%] Generating espeak-ng-data/tk_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/tk_dict'
+Using phonemetable: 'tk'
+Compiling: 'tk_listx'
+	868 entries
+Compiling: 'tk_list'
+	62 entries
+Compiling: 'tk_rules'
+	318 rules, 30 groups (0)
+
+[ 87%] Generating espeak-ng-data/tn_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/tn_dict'
+Using phonemetable: 'tn'
+Compiling: 'tn_list'
+	110 entries
+Compiling: 'tn_rules'
+	82 rules, 27 groups (0)
+
+[ 88%] Generating espeak-ng-data/tr_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/tr_dict'
+Using phonemetable: 'tr'
+Compiling: 'tr_listx'
+	147 entries
+Compiling: 'tr_list'
+	175 entries
+Compiling: 'tr_emoji'
+	1639 entries
+Compiling: 'tr_rules'
+	215 rules, 37 groups (0)
+
+[ 88%] Generating espeak-ng-data/tt_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/tt_dict'
+Using phonemetable: 'tt'
+Compiling: 'tt_list'
+	74 entries
+Compiling: 'tt_rules'
+	49 rules, 40 groups (34)
+
+[ 89%] Generating espeak-ng-data/ug_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ug_dict'
+Using phonemetable: 'ug'
+Compiling: 'ug_list'
+	37 entries
+Compiling: 'ug_rules'
+	81 rules, 61 groups (0)
+
+[ 89%] Generating espeak-ng-data/uk_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/uk_dict'
+Using phonemetable: 'uk'
+Compiling: 'uk_list'
+	167 entries
+Compiling: 'uk_rules'
+	47 rules, 34 groups (33)
+
+[ 90%] Generating espeak-ng-data/ur_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/ur_dict'
+Using phonemetable: 'ur'
+Compiling: 'ur_list'
+	3028 entries
+Compiling: 'ur_emoji'
+	1639 entries
+Compiling: 'ur_rules'
+	1488 rules, 62 groups (44)
+
+[ 91%] Generating espeak-ng-data/uz_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/uz_dict'
+Using phonemetable: 'uz'
+Compiling: 'uz_list'
+	122 entries
+Compiling: 'uz_rules'
+	35 rules, 26 groups (0)
+
+[ 91%] Generating espeak-ng-data/vi_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/vi_dict'
+Using phonemetable: 'vi'
+Compiling: 'vi_list'
+	135 entries
+Compiling: 'vi_emoji'
+	1639 entries
+Compiling: 'vi_rules'
+	592 rules, 97 groups (0)
+
+[ 92%] Generating espeak-ng-data/yue_dict
+Can't read dictionary file: '/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/e/src/espeak_ng_external-build/espeak-ng-data/yue_dict'
+Using phonemetable: 'yue'
+Compiling: 'yue_list'
+	3822 entries
+Compiling: 'yue_listx'
+	33813 entries
+Compiling: 'yue_emoji'
+	1635 entries
+Compiling: 'yue_rules'
+	79 rules, 27 groups (0)
+
+[ 92%] Built target data
+[ 93%] Link espeak-ng to compat names
+[ 93%] Built target speak-ng
+[ 94%] Building CXX object src/speechPlayer/CMakeFiles/speechPlayer.dir/src/frame.cpp.o
+[ 94%] Building CXX object src/speechPlayer/CMakeFiles/speechPlayer.dir/src/speechPlayer.cpp.o
+[ 95%] Building CXX object src/speechPlayer/CMakeFiles/speechPlayer.dir/src/speechWaveGenerator.cpp.o
+[ 95%] Linking CXX static library libspeechPlayer.a
+[ 95%] Built target speechPlayer
+[ 96%] Building C object tests/CMakeFiles/test_api.dir/api.c.o
+[ 97%] Linking C executable test_api
+[ 97%] Built target test_api
+[ 97%] Building C object tests/CMakeFiles/test_encoding.dir/encoding.c.o
+[ 98%] Linking C executable test_encoding
+[ 98%] Built target test_encoding
+[ 98%] Building C object tests/CMakeFiles/test_ieee80.dir/ieee80.c.o
+[ 99%] Linking C executable test_ieee80
+[ 99%] Built target test_ieee80
+[100%] Building C object tests/CMakeFiles/test_readclause.dir/readclause.c.o
+[100%] Linking C executable test_readclause
+[100%] Built target test_readclause
+[ 36%] Performing install step for 'espeak_ng_external'
+[  0%] Built target sonic
+[  5%] Built target ucd
+[ 22%] Built target espeak-ng
+[ 23%] Built target espeak-ng-bin
+[ 24%] Generating espeak-ng-data/chr_dict
+Using phonemetable: 'chr'
+Compiling: 'chr_list'
+	0 entries
+Compiling: 'chr_rules'
+	198 rules, 27 groups (0)
+
+[ 25%] Generating espeak-ng-data/cmn_dict
+Using phonemetable: 'cmn'
+Compiling: 'cmn_list'
+	3859 entries
+Compiling: 'cmn_listx'
+	77860 entries
+Compiling: 'cmn_emoji'
+	1639 entries
+Compiling: 'cmn_rules'
+	136 rules, 28 groups (0)
+
+[ 25%] Generating espeak-ng-data/cs_dict
+Using phonemetable: 'cs'
+Compiling: 'cs_list'
+	357 entries
+Compiling: 'cs_emoji'
+	1639 entries
+Compiling: 'cs_rules'
+	506 rules, 48 groups (0)
+
+[ 26%] Generating espeak-ng-data/cv_dict
+Using phonemetable: 'cv'
+Compiling: 'cv_list'
+	0 entries
+Compiling: 'cv_rules'
+	39 rules, 37 groups (0)
+
+[ 26%] Generating espeak-ng-data/cy_dict
+Using phonemetable: 'cy'
+Compiling: 'cy_list'
+	166 entries
+Compiling: 'cy_emoji'
+	1636 entries
+Compiling: 'cy_rules'
+	210 rules, 27 groups (0)
+
+[ 27%] Generating espeak-ng-data/da_dict
+Using phonemetable: 'da'
+Compiling: 'da_list'
+	11152 entries
+Compiling: 'da_emoji'
+	1639 entries
+Compiling: 'da_rules'
+	9269 rules, 56 groups (0)
+
+[ 28%] Generating espeak-ng-data/de_dict
+Using phonemetable: 'de'
+Compiling: 'de_list'
+	940 entries
+Compiling: 'de_emoji'
+	1688 entries
+Compiling: 'de_rules'
+	1330 rules, 34 groups (0)
+
+[ 28%] Generating espeak-ng-data/el_dict
+Using phonemetable: 'el'
+Compiling: 'el_list'
+	379 entries
+Compiling: 'el_emoji'
+	1639 entries
+Compiling: 'el_rules'
+	182 rules, 27 groups (26)
+
+[ 29%] Generating espeak-ng-data/en_dict
+Using phonemetable: 'en'
+Compiling: 'en_list'
+	5481 entries
+Compiling: 'en_emoji'
+	1690 entries
+Compiling: 'en_rules'
+	6744 rules, 103 groups (0)
+
+[ 29%] Generating espeak-ng-data/eo_dict
+Using phonemetable: 'eo'
+Compiling: 'eo_list'
+	242 entries
+Compiling: 'eo_rules'
+	130 rules, 27 groups (0)
+
+[ 30%] Generating espeak-ng-data/es_dict
+Using phonemetable: 'es'
+Compiling: 'es_list'
+	370 entries
+Compiling: 'es_emoji'
+	1639 entries
+Compiling: 'es_rules'
+	192 rules, 29 groups (0)
+
+[ 31%] Generating espeak-ng-data/et_dict
+Using phonemetable: 'et'
+Compiling: 'et_list'
+	303 entries
+Compiling: 'et_emoji'
+	1639 entries
+Compiling: 'et_rules'
+	221 rules, 31 groups (0)
+
+[ 31%] Generating espeak-ng-data/eu_dict
+Using phonemetable: 'eu'
+Compiling: 'eu_list'
+	194 entries
+Compiling: 'eu_emoji'
+	1639 entries
+Compiling: 'eu_rules'
+	159 rules, 27 groups (0)
+
+[ 92%] Built target data
+[ 93%] Link espeak-ng to compat names
+[ 93%] Built target speak-ng
+[ 95%] Built target speechPlayer
+[ 97%] Built target test_api
+[ 98%] Built target test_encoding
+[ 99%] Built target test_ieee80
+[100%] Built target test_readclause
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/el_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/af_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/mi_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ur_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/de_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/phondata-manifest
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/mt_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ka_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/kl_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/tn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/tr_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sr_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/pa_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/id_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/phontab
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/gd_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ko_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/intonations
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/mto_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/shn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/gu_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/my_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/jbo_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sv_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ta_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/hy_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ug_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ml_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sl_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/grc_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/hak_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/en_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/hi_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lfn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/es_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/te_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/bs_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/tt_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/kn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/hu_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/uk_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/nci_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/piqd_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/is_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/bn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/az_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/cy_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/kk_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/eu_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/pt_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/tai
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/tai/shn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/tai/th
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/pt-BR
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/ca
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/fr
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/pt
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/ro
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/ht
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/fr-CH
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/fr-BE
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/an
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/es
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/it
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/pap
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/roa/es-419
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/urj
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/urj/et
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/urj/fi
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/urj/smj
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/urj/hu
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en-GB-x-gbclan
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/af
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en-US-nyc
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en-US
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/nl
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/de
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en-GB-scotland
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en-GB-x-gbcwmd
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en-GB-x-rp
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/en-029
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmw/lb
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sai
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sai/gn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ira
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ira/fa
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ira/fa-Latn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ira/ku
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ccs
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ccs/ka
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/myn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/myn/quc
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/qya
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/io
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/ia
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/jbo
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/lfn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/piqd
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/py
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/qdb
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/eo
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/art/sjn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ine
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ine/sq
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ine/hy
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ine/hyw
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/aav
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/aav/vi-VN-x-south
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/aav/vi
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/aav/vi-VN-x-central
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/ko
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/iro
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/iro/chr
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zle
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zle/ru-cl
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zle/uk
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zle/ru
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zle/be
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zle/ru-LV
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/bnt
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/bnt/sw
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/bnt/tn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmq
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmq/da
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmq/nb
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmq/is
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/gmq/sv
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zlw
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zlw/sk
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zlw/pl
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zlw/cs
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/jpx
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/jpx/ja
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/cel
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/cel/ga
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/cel/cy
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/cel/gd
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zls
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zls/bs
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zls/hr
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zls/bg
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zls/sr
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zls/sl
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/zls/mk
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/esx
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/esx/kl
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/dra
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/dra/te
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/dra/kn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/dra/ta
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/dra/ml
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/azc
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/azc/nci
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/grk
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/grk/grc
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/grk/el
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/itc
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/itc/la
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/eu
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/cus
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/cus/om
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/qu
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sit
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sit/my
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sit/yue
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sit/hak
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sit/cmn-Latn-pinyin
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sit/cmn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sit/yue-Latn-jyutping
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sem
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sem/he
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sem/am
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sem/ar
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/sem/mt
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/map
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/map/haw
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/poz
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/poz/id
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/poz/ms
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/poz/mi
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/sd
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/mr
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/as
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/pa
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/bpy
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/ne
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/kok
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/ur
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/si
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/hi
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/bn
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/gu
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/inc/or
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/nog
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/ba
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/ug
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/uz
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/cv
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/kk
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/ky
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/tr
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/az
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/tt
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/trk/tk
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/bat
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/bat/ltg
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/bat/lt
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/bat/lv
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/miz
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lang/miz/mto
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sw_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/bpy_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/qu_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/hr_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/yue_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sk_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/et_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/cmn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/vi_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/nl_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ru_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/mk_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/smj_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ms_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/be_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ca_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/la_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/or_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/cv_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/phonindex
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/pap_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/quc_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ht_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/phondata
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/fr_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/fi_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lt_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/py_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/am_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ja_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/gn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/he_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/nog_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/th_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ia_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/mr_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ar_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/kok_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/da_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/uz_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ba_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/si_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ro_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/haw_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/qya_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ne_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/om_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/as_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ky_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ku_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/fa_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/eo_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/no_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sd_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/pl_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/io_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sq_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/chr_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/it_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lb_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/qdb_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/steph2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Lee
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/caleb
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/klatt5
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/max
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/edward
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/f2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/steph3
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/grandma
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/quincy
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/croak
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/whisperf
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/iven4
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/klatt2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/pablo
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m4
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Jacky
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robert
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/announcer
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Marco
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/ian
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft3
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/pedro
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/grandpa
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Reed
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/anika
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/linda
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/iven
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m6
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Nguyen
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Andy
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/klatt
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Alicia
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Mario
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m5
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m7
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Storm
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/kaukovalta
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/anikaRobot
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/f1
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/klatt4
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Hugo
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/f5
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Annie
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/miguel
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/gustave
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m8
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/paul
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/john
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Gene
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/marcelo
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/david
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft4
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft6
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/rob
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Andrea
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/iven2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft5
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/klatt6
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/RicishayMax2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/f3
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/edward2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/ed
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/sandro
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Demonic
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft8
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/fast
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Denis
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/shelby
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/steph
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/victor
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Diogo
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/aunty
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/RicishayMax3
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/benjamin
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/klatt3
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/f4
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m1
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/RicishayMax
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Gene2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/norbert
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/belinda
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/UniRobot
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/mike2
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/m3
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Michael
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Alex
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/travis
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Tweaky
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/AnxiousAndy
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Mike
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Henrique
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/boris
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/robosoft7
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/michel
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/whisper
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/zac
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/antonio
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/adam
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/iven3
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/voices/!v/Mr serious
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/tk_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/sjn_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/bg_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/ga_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/an_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/lv_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/espeak-ng-data/cs_dict
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/lib/pkgconfig/espeak-ng.pc
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/vim/vimfiles/ftdetect
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/vim/vimfiles/ftdetect/espeakfiletype.vim
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/vim/vimfiles/syntax
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/vim/vimfiles/syntax/espeaklist.vim
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/share/vim/vimfiles/syntax/espeakrules.vim
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/bin/espeak-ng
+-- Set runtime path of "/home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/bin/espeak-ng" to ""
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/include/espeak
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/include/espeak/speak_lib.h
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/include/espeak-ng
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/include/espeak-ng/encoding.h
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/include/espeak-ng/speak_lib.h
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/include/espeak-ng/espeak_ng.h
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/lib/libespeak-ng.so.1.52.0.1
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/lib/libespeak-ng.so.1
+-- Installing: /home/azm/projects/piper/piper/build/p/src/piper_phonemize_external-build/ei/lib/libespeak-ng.so
+[ 42%] Completed 'espeak_ng_external'
+[ 42%] Built target espeak_ng_external
+[ 47%] Building CXX object CMakeFiles/piper_phonemize.dir/src/phonemize.cpp.o
+[ 52%] Building CXX object CMakeFiles/piper_phonemize.dir/src/phoneme_ids.cpp.o
+[ 57%] Building CXX object CMakeFiles/piper_phonemize.dir/src/tashkeel.cpp.o
+[ 63%] Building CXX object CMakeFiles/piper_phonemize.dir/src/shared.cpp.o
+[ 68%] Linking CXX shared library libpiper_phonemize.so
+[ 68%] Built target piper_phonemize
+[ 73%] Building CXX object CMakeFiles/piper_phonemize_exe.dir/src/main.cpp.o
+[ 78%] Building CXX object CMakeFiles/piper_phonemize_exe.dir/src/phoneme_ids.cpp.o
+[ 84%] Linking CXX executable piper_phonemize
+[ 84%] Built target piper_phonemize_exe
+[ 89%] Building CXX object CMakeFiles/test_piper_phonemize.dir/src/test.cpp.o
+[ 94%] Building CXX object CMakeFiles/test_piper_phonemize.dir/src/phoneme_ids.cpp.o
+[100%] Linking CXX executable test_piper_phonemize
+[100%] Built target test_piper_phonemize
+[ 23%] Performing install step for 'piper_phonemize_external'
+[ 42%] Built target espeak_ng_external
+[ 68%] Built target piper_phonemize
+[ 84%] Built target piper_phonemize_exe
+[100%] Built target test_piper_phonemize
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libpiper_phonemize.so.1.2.0
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libpiper_phonemize.so.1
+-- Set runtime path of "/home/azm/projects/piper/piper/build/pi/lib/libpiper_phonemize.so.1.2.0" to ""
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libpiper_phonemize.so
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/piper-phonemize
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/piper-phonemize/json.hpp
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/piper-phonemize/shared.hpp
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/piper-phonemize/phonemize.hpp
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/piper-phonemize/phoneme_ids.hpp
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/piper-phonemize/uni_algo.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/piper-phonemize/tashkeel.hpp
+-- Installing: /home/azm/projects/piper/piper/build/pi/bin/piper_phonemize
+-- Set runtime path of "/home/azm/projects/piper/piper/build/pi/bin/piper_phonemize" to ""
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/libtashkeel_model.ort
+-- Up-to-date: /home/azm/projects/piper/piper/build/pi
+-- Up-to-date: /home/azm/projects/piper/piper/build/pi/bin
+-- Installing: /home/azm/projects/piper/piper/build/pi/bin/espeak-ng
+-- Up-to-date: /home/azm/projects/piper/piper/build/pi/share
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/el_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/af_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/mi_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ur_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/de_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/phondata-manifest
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/mt_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ka_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/kl_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/tn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/tr_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sr_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/pa_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/id_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/phontab
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/gd_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ko_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/intonations
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/mto_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/shn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/gu_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/my_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/jbo_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sv_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ta_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/hy_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ug_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ml_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sl_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/grc_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/hak_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/en_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/hi_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lfn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/es_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/te_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/bs_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/tt_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/kn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/hu_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/uk_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/nci_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/piqd_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/is_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/bn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/az_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/cy_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/kk_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/eu_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/pt_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/tai
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/tai/shn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/tai/th
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/pt-BR
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/ca
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/fr
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/pt
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/ro
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/ht
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/fr-CH
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/fr-BE
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/an
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/es
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/it
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/pap
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/roa/es-419
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/urj
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/urj/et
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/urj/fi
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/urj/smj
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/urj/hu
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en-GB-x-gbclan
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/af
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en-US-nyc
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en-US
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/nl
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/de
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en-GB-scotland
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en-GB-x-gbcwmd
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en-GB-x-rp
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/en-029
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmw/lb
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sai
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sai/gn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ira
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ira/fa
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ira/fa-Latn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ira/ku
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ccs
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ccs/ka
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/myn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/myn/quc
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/qya
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/io
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/ia
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/jbo
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/lfn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/piqd
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/py
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/qdb
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/eo
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/art/sjn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ine
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ine/sq
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ine/hy
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ine/hyw
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/aav
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/aav/vi-VN-x-south
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/aav/vi
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/aav/vi-VN-x-central
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/ko
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/iro
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/iro/chr
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zle
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zle/ru-cl
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zle/uk
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zle/ru
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zle/be
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zle/ru-LV
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/bnt
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/bnt/sw
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/bnt/tn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmq
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmq/da
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmq/nb
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmq/is
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/gmq/sv
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zlw
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zlw/sk
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zlw/pl
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zlw/cs
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/jpx
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/jpx/ja
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/cel
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/cel/ga
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/cel/cy
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/cel/gd
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zls
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zls/bs
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zls/hr
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zls/bg
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zls/sr
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zls/sl
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/zls/mk
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/esx
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/esx/kl
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/dra
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/dra/te
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/dra/kn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/dra/ta
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/dra/ml
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/azc
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/azc/nci
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/grk
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/grk/grc
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/grk/el
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/itc
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/itc/la
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/eu
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/cus
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/cus/om
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/qu
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sit
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sit/my
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sit/yue
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sit/hak
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sit/cmn-Latn-pinyin
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sit/cmn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sit/yue-Latn-jyutping
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sem
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sem/he
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sem/am
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sem/ar
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/sem/mt
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/map
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/map/haw
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/poz
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/poz/id
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/poz/ms
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/poz/mi
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/sd
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/mr
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/as
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/pa
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/bpy
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/ne
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/kok
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/ur
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/si
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/hi
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/bn
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/gu
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/inc/or
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/nog
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/ba
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/ug
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/uz
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/cv
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/kk
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/ky
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/tr
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/az
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/tt
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/trk/tk
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/bat
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/bat/ltg
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/bat/lt
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/bat/lv
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/miz
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lang/miz/mto
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sw_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/bpy_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/qu_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/hr_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/yue_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sk_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/et_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/cmn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/vi_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/nl_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ru_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/mk_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/smj_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ms_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/be_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ca_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/la_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/or_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/cv_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/phonindex
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/pap_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/quc_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ht_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/phondata
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/fr_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/fi_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lt_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/py_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/am_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ja_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/gn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/he_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/nog_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/th_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ia_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/mr_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ar_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/kok_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/da_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/uz_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ba_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/si_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ro_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/haw_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/qya_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ne_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/om_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/as_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ky_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ku_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/fa_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/eo_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/no_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sd_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/pl_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/io_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sq_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/chr_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/it_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lb_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/qdb_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/steph2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Lee
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/caleb
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/klatt5
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/max
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/edward
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/f2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/steph3
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/grandma
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/quincy
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/croak
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/whisperf
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/iven4
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/klatt2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/pablo
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m4
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Jacky
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robert
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/announcer
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Marco
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/ian
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft3
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/pedro
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/grandpa
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Reed
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/anika
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/linda
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/iven
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m6
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Nguyen
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Andy
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/klatt
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Alicia
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Mario
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m5
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m7
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Storm
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/kaukovalta
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/anikaRobot
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/f1
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/klatt4
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Hugo
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/f5
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Annie
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/miguel
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/gustave
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m8
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/paul
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/john
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Gene
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/marcelo
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/david
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft4
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft6
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/rob
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Andrea
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/iven2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft5
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/klatt6
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/RicishayMax2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/f3
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/edward2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/ed
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/sandro
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Demonic
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft8
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/fast
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Denis
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/shelby
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/steph
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/victor
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Diogo
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/aunty
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/RicishayMax3
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/benjamin
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/klatt3
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/f4
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m1
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/RicishayMax
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Gene2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/norbert
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/belinda
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/UniRobot
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/mike2
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/m3
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Michael
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Alex
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/travis
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Tweaky
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/AnxiousAndy
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Mike
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Henrique
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/boris
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/robosoft7
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/michel
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/whisper
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/zac
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/antonio
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/adam
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/iven3
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/voices/!v/Mr serious
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/tk_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/sjn_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/bg_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/ga_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/an_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/lv_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/espeak-ng-data/cs_dict
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/vim
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/vim/vimfiles
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/vim/vimfiles/syntax
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/vim/vimfiles/syntax/espeaklist.vim
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/vim/vimfiles/syntax/espeakrules.vim
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/vim/vimfiles/ftdetect
+-- Installing: /home/azm/projects/piper/piper/build/pi/share/vim/vimfiles/ftdetect/espeakfiletype.vim
+-- Up-to-date: /home/azm/projects/piper/piper/build/pi/lib
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libespeak-ng.so.1
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/pkgconfig
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/pkgconfig/espeak-ng.pc
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libespeak-ng.so.1.52.0.1
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libespeak-ng.so
+-- Up-to-date: /home/azm/projects/piper/piper/build/pi/include
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/espeak-ng
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/espeak-ng/encoding.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/espeak-ng/speak_lib.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/espeak-ng/espeak_ng.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/espeak
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/espeak/speak_lib.h
+-- Up-to-date: /home/azm/projects/piper/piper/build/pi/include
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/cpu_provider_factory.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/onnxruntime_cxx_api.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/onnxruntime_run_options_config_keys.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/onnxruntime_c_api.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/provider_options.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/onnxruntime_cxx_inline.h
+-- Installing: /home/azm/projects/piper/piper/build/pi/include/onnxruntime_session_options_config_keys.h
+-- Up-to-date: /home/azm/projects/piper/piper/build/pi/lib
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libonnxruntime.so
+-- Installing: /home/azm/projects/piper/piper/build/pi/lib/libonnxruntime.so.1.14.1
+[ 26%] Completed 'piper_phonemize_external'
+[ 26%] Built target piper_phonemize_external
+[ 30%] Creating directories for 'fmt_external'
+[ 33%] Performing download step (download, verify and extract) for 'fmt_external'
+-- Downloading...
+   dst='/home/azm/projects/piper/piper/build/f/src/10.0.0.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/fmtlib/fmt/archive/refs/tags/10.0.0.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/azm/projects/piper/piper/build/f/src/10.0.0.zip'
+     dst='/home/azm/projects/piper/piper/build/f/src/fmt_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 36%] No update step for 'fmt_external'
+[ 40%] No patch step for 'fmt_external'
+[ 43%] Performing configure step for 'fmt_external'
+-- CMake version: 3.25.1
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Version: 10.0.0
+-- Build type: Release
+-- Target 'doc' disabled (requires doxygen)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azm/projects/piper/piper/build/f/src/fmt_external-build
+[ 46%] Performing build step for 'fmt_external'
+[ 33%] Building CXX object CMakeFiles/fmt.dir/src/format.cc.o
+[ 66%] Building CXX object CMakeFiles/fmt.dir/src/os.cc.o
+[100%] Linking CXX static library libfmt.a
+[100%] Built target fmt
+[ 50%] Performing install step for 'fmt_external'
+[100%] Built target fmt
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/azm/projects/piper/piper/build/fi/lib/libfmt.a
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/args.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/chrono.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/color.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/compile.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/core.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/format.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/format-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/os.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/ostream.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/printf.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/ranges.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/std.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/include/fmt/xchar.h
+-- Installing: /home/azm/projects/piper/piper/build/fi/lib/cmake/fmt/fmt-config.cmake
+-- Installing: /home/azm/projects/piper/piper/build/fi/lib/cmake/fmt/fmt-config-version.cmake
+-- Installing: /home/azm/projects/piper/piper/build/fi/lib/cmake/fmt/fmt-targets.cmake
+-- Installing: /home/azm/projects/piper/piper/build/fi/lib/cmake/fmt/fmt-targets-release.cmake
+-- Installing: /home/azm/projects/piper/piper/build/fi/lib/pkgconfig/fmt.pc
+[ 53%] Completed 'fmt_external'
+[ 53%] Built target fmt_external
+[ 56%] Creating directories for 'spdlog_external'
+[ 60%] Performing download step (download, verify and extract) for 'spdlog_external'
+-- Downloading...
+   dst='/home/azm/projects/piper/piper/build/s/src/v1.12.0.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/gabime/spdlog/archive/refs/tags/v1.12.0.zip'
+-- [download 4% complete]
+-- [download 8% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 14% complete]
+-- [download 17% complete]
+-- [download 21% complete]
+-- [download 26% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 48% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 55% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 65% complete]
+-- [download 70% complete]
+-- [download 81% complete]
+-- [download 85% complete]
+-- [download 91% complete]
+-- [download 100% complete]
+-- Downloading... done
+-- extracting...
+     src='/home/azm/projects/piper/piper/build/s/src/v1.12.0.zip'
+     dst='/home/azm/projects/piper/piper/build/s/src/spdlog_external'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 63%] No update step for 'spdlog_external'
+[ 66%] No patch step for 'spdlog_external'
+[ 70%] Performing configure step for 'spdlog_external'
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build spdlog: 1.12.0
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Build type: Release
+-- Generating example(s)
+-- Generating install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azm/projects/piper/piper/build/s/src/spdlog_external-build
+[ 73%] Performing build step for 'spdlog_external'
+[ 10%] Building CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[ 20%] Building CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[ 30%] Building CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[ 40%] Building CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[ 50%] Building CXX object CMakeFiles/spdlog.dir/src/async.cpp.o
+[ 60%] Building CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[ 70%] Building CXX object CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o
+[ 80%] Linking CXX static library libspdlog.a
+[ 80%] Built target spdlog
+[ 90%] Building CXX object example/CMakeFiles/example.dir/example.cpp.o
+[100%] Linking CXX executable example
+[100%] Built target example
+[ 76%] Performing install step for 'spdlog_external'
+[ 80%] Built target spdlog
+[100%] Built target example
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/azm/projects/piper/piper/build/si/include
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/async_logger-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/spdlog-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/pattern_formatter-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/pattern_formatter.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/tweakme.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/logger.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/async.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/version.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/common-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/stopwatch.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/base_sink-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/daily_file_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/null_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/kafka_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/stdout_sinks.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/base_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/basic_file_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/qt_sinks.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/syslog_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/msvc_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/dist_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/android_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/systemd_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/wincolor_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/hourly_file_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/mongo_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/ostream_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/udp_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/sink-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/callback_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/tcp_sink.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/logger-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/cfg
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/cfg/helpers.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/cfg/env.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/cfg/argv.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/cfg/helpers-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/ranges.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/compile.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/fmt.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/ostr.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/chrono.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/xchar.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bin_to_hex.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/std.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/common.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/async_logger.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/spdlog.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/backtracer.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/periodic_worker.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/log_msg.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/registry-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/backtracer-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/tcp_client.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/log_msg-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/os.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/null_mutex.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/periodic_worker-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/console_globals.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/log_msg_buffer.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/udp_client.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/fmt_helper.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/registry.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/file_helper.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/file_helper-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/os-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/udp_client-windows.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/tcp_client-windows.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/windows_include.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/synchronous_factory.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/circular_q.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/thread_pool-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/details/thread_pool.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fwd.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/formatter.h
+-- Installing: /home/azm/projects/piper/piper/build/si/lib/libspdlog.a
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled/
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//ranges.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//printf.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//format-inl.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//compile.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//os.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//args.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//ostream.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//core.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//locale.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//format.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//chrono.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//fmt.license.rst
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//color.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//xchar.h
+-- Installing: /home/azm/projects/piper/piper/build/si/include/spdlog/fmt/bundled//std.h
+-- Installing: /home/azm/projects/piper/piper/build/si/lib/pkgconfig/spdlog.pc
+-- Installing: /home/azm/projects/piper/piper/build/si/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: /home/azm/projects/piper/piper/build/si/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: /home/azm/projects/piper/piper/build/si/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: /home/azm/projects/piper/piper/build/si/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[ 80%] Completed 'spdlog_external'
+[ 80%] Built target spdlog_external
+[ 83%] Building CXX object CMakeFiles/piper.dir/src/cpp/main.cpp.o
+[ 86%] Building CXX object CMakeFiles/piper.dir/src/cpp/piper.cpp.o
+/home/azm/projects/piper/piper/src/cpp/piper.cpp: In function ‘void piper::loadVoice(PiperConfig&, std::string, std::string, Voice&, std::optional<long int>&, bool)’:
+/home/azm/projects/piper/piper/src/cpp/piper.cpp:309:29: warning: unused parameter ‘config’ [-Wunused-parameter]
+  309 | void loadVoice(PiperConfig &config, std::string modelPath,
+      |                ~~~~~~~~~~~~~^~~~~~
+[ 90%] Linking CXX executable piper
+[ 90%] Built target piper
+[ 93%] Building CXX object CMakeFiles/test_piper.dir/src/cpp/test.cpp.o
+[ 96%] Building CXX object CMakeFiles/test_piper.dir/src/cpp/piper.cpp.o
+/home/azm/projects/piper/piper/src/cpp/piper.cpp: In function ‘void piper::loadVoice(PiperConfig&, std::string, std::string, Voice&, std::optional<long int>&, bool)’:
+/home/azm/projects/piper/piper/src/cpp/piper.cpp:309:29: warning: unused parameter ‘config’ [-Wunused-parameter]
+  309 | void loadVoice(PiperConfig &config, std::string modelPath,
+      |                ~~~~~~~~~~~~~^~~~~~
+[100%] Linking CXX executable test_piper
+[100%] Built target test_piper
