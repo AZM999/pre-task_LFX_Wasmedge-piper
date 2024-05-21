@@ -1,0 +1,418 @@
+ azm@debian  ~  docker pull wasmedge/wasmedge
+Using default tag: latest
+latest: Pulling from wasmedge/wasmedge
+a8b1c5f80c2d: Pull complete
+eb8b81470ea2: Pull complete
+f841c5ff2335: Pull complete
+2b9f8366dbf6: Pull complete
+db800449a69e: Pull complete
+Digest: sha256:9dc04173b7ac72f61343558c8a568a8467b5483f096e8bf11db93ab82cf05d61
+Status: Downloaded newer image for wasmedge/wasmedge:latest
+docker.io/wasmedge/wasmedge:latest
+
+ azm@debian  ~  docker run -it --rm \
+    -v /home/azm/projects/WasmEdge/:/root/wasmedge \
+    wasmedge/wasmedge:latest
+root@8d740c688ddf:/# cd /root/wasmedge/
+root@8d740c688ddf:~/wasmedge# mkdir -p build && cd build
+root@8d740c688ddf:~/wasmedge/build# cmake -DCMAKE_BUILD_TYPE=Release -DWASMEDGE_BUILD_TESTS=ON .. && make -j
+-- The CXX compiler identification is Clang 15.0.7
+-- The C compiler identification is Clang 15.0.7
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-15 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang-15 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+fatal: detected dubious ownership in repository at '/root/wasmedge'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory /root/wasmedge
+-- Looking for C++ include filesystem
+-- Looking for C++ include filesystem - found
+-- Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED
+-- Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter
+-- Downloading the WASM spec test suite
+-- Downloading the WASM spec test suite -- done
+-- Downloading SIMDJSON source
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for wait
+-- Looking for wait - found
+-- Adding -Og to compile flag
+-- Downloading SIMDJSON source -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/core
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/core -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/multi-memory
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/multi-memory -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/tail-call
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/tail-call -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/extended-const
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/extended-const -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/threads
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/threads -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/function-references
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/function-references -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/gc
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/gc -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/exception-handling
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/exception-handling -- done
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/exception-handling-legacy
+-- Copying test suite to /root/wasmedge/build/test/spec/testSuites/exception-handling-legacy -- done
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for C++ include pwd.h
+-- Looking for C++ include pwd.h - found
+-- Performing Test HAVE_FFI_CALL
+-- Performing Test HAVE_FFI_CALL - Success
+-- Found FFI: /usr/lib/x86_64-linux-gnu/libffi.so
+-- Performing Test Terminfo_LINKABLE
+-- Performing Test Terminfo_LINKABLE - Success
+-- Found Terminfo: /usr/lib/x86_64-linux-gnu/libtinfo.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13")
+-- Linker detection: GNU ld
+-- Performing Test SUPPORT_EXCLUDE_LIBS
+-- Performing Test SUPPORT_EXCLUDE_LIBS - Success
+-- Version: 10.2.1
+-- Build type: Release
+-- Performing Test HAS_NULLPTR_WARNING
+-- Performing Test HAS_NULLPTR_WARNING - Success
+-- Build spdlog: 1.13.0
+-- Build type: Release
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /usr/bin/clang-15
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/wasmedge/build
+Scanning dependencies of target utilBlake3
+[  1%] Building CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o
+[  1%] Building CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o
+[  3%] Building ASM object thirdparty/blake3/CMakeFiles/utilBlake3.dir/blake3_avx2_x86-64_unix.S.o
+[  3%] Building C object thirdparty/blake3/CMakeFiles/utilBlake3.dir/blake3_dispatch.c.o
+[  4%] Building C object thirdparty/blake3/CMakeFiles/utilBlake3.dir/blake3_portable.c.o
+[  4%] Building C object thirdparty/blake3/CMakeFiles/utilBlake3.dir/blake3.c.o
+[  4%] Building CXX object _deps/gtest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  4%] Building ASM object thirdparty/blake3/CMakeFiles/utilBlake3.dir/blake3_avx512_x86-64_unix.S.o
+[  4%] Building CXX object _deps/simdjson-build/CMakeFiles/simdjson.dir/src/simdjson.cpp.o
+[  4%] Building ASM object thirdparty/blake3/CMakeFiles/utilBlake3.dir/blake3_sse41_x86-64_unix.S.o
+[  5%] Building ASM object thirdparty/blake3/CMakeFiles/utilBlake3.dir/blake3_sse2_x86-64_unix.S.o
+[  6%] Linking C static library libutilBlake3.a
+[  6%] Built target utilBlake3
+[  6%] Linking CXX static library libfmt.a
+[  6%] Built target fmt
+[  7%] Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[  7%] Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[  7%] Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[  8%] Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[  8%] Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[  8%] Building CXX object _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o
+[  9%] Linking CXX static library libspdlog.a
+[  9%] Built target spdlog
+[  9%] Building CXX object lib/common/CMakeFiles/wasmedgeCommon.dir/spdlog.cpp.o
+[  9%] Building CXX object lib/common/CMakeFiles/wasmedgeCommon.dir/int128.cpp.o
+[ 11%] Building CXX object lib/common/CMakeFiles/wasmedgeCommon.dir/hexstr.cpp.o
+[ 11%] Building CXX object lib/common/CMakeFiles/wasmedgeCommon.dir/errinfo.cpp.o
+[ 12%] Linking CXX static library libsimdjson.a
+[ 12%] Built target simdjson
+[ 12%] Linking CXX static library ../../../lib/libgtest.a
+[ 12%] Built target gtest
+[ 13%] Building CXX object _deps/gtest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 13%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 13%] Built target gtest_main
+[ 13%] Building CXX object test/span/CMakeFiles/spanTests.dir/span.cpp.o
+[ 13%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/bases.cpp.o
+[ 14%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/emplace.cpp.o
+[ 15%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/gtest.cpp.o
+[ 16%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/observers.cpp.o
+[ 16%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/swap.cpp.o
+[ 16%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/constexpr.cpp.o
+[ 17%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/noexcept.cpp.o
+[ 17%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/assignment.cpp.o
+[ 17%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/constructors.cpp.o
+[ 18%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/extensions.cpp.o
+[ 18%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/issues.cpp.o
+[ 18%] Building CXX object test/expected/CMakeFiles/expectedTests.dir/relops.cpp.o
+[ 19%] Linking CXX static library libwasmedgeCommon.a
+[ 19%] Built target wasmedgeCommon
+[ 20%] Building CXX object lib/po/CMakeFiles/wasmedgePO.dir/argument_parser.cpp.o
+[ 20%] Building CXX object test/spec/CMakeFiles/wasmedgeTestSpec.dir/spectest.cpp.o
+[ 20%] Building CXX object lib/system/CMakeFiles/wasmedgeSystem.dir/fault.cpp.o
+[ 21%] Building CXX object lib/system/CMakeFiles/wasmedgeSystem.dir/mmap.cpp.o
+[ 21%] Building CXX object lib/system/CMakeFiles/wasmedgeSystem.dir/path.cpp.o
+[ 21%] Building CXX object test/common/CMakeFiles/wasmedgeCommonTests.dir/int128Test.cpp.o
+[ 22%] Building CXX object lib/validator/CMakeFiles/wasmedgeValidator.dir/validator.cpp.o
+[ 23%] Building CXX object lib/system/CMakeFiles/wasmedgeSystem.dir/allocator.cpp.o
+[ 23%] Building CXX object test/errinfo/CMakeFiles/wasmedgeErrinfoTests.dir/errinfoTest.cpp.o
+[ 23%] Building CXX object lib/validator/CMakeFiles/wasmedgeValidator.dir/formchecker.cpp.o
+[ 24%] Linking CXX executable expectedTests
+[ 25%] Linking CXX executable spanTests
+[ 25%] Built target expectedTests
+[ 26%] Linking CXX executable wasmedgeCommonTests
+[ 27%] Linking CXX static library libwasmedgeSystem.a
+[ 27%] Built target wasmedgeSystem
+[ 29%] Building CXX object lib/aot/CMakeFiles/wasmedgeAOT.dir/blake3.cpp.o
+[ 29%] Building CXX object lib/llvm/CMakeFiles/wasmedgeLLVM.dir/codegen.cpp.o
+[ 29%] Building CXX object lib/host/wasi/CMakeFiles/wasmedgeHostModuleWasi.dir/environ.cpp.o
+[ 29%] Building CXX object lib/llvm/CMakeFiles/wasmedgeLLVM.dir/compiler.cpp.o
+[ 30%] Building CXX object lib/host/wasi/CMakeFiles/wasmedgeHostModuleWasi.dir/wasimodule.cpp.o
+[ 30%] Building CXX object lib/aot/CMakeFiles/wasmedgeAOT.dir/cache.cpp.o
+[ 30%] Building CXX object lib/host/wasi/CMakeFiles/wasmedgeHostModuleWasi.dir/wasifunc.cpp.o
+[ 31%] Building CXX object lib/host/wasi/CMakeFiles/wasmedgeHostModuleWasi.dir/vinode.cpp.o
+[ 31%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoaderFileMgr.dir/filemgr.cpp.o
+[ 31%] Building CXX object lib/llvm/CMakeFiles/wasmedgeLLVM.dir/data.cpp.o
+[ 31%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/import.cpp.o
+[ 32%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/function.cpp.o
+[ 33%] Building CXX object lib/host/wasi/CMakeFiles/wasmedgeHostModuleWasi.dir/environ-linux.cpp.o
+[ 34%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoaderFileMgr.dir/shared_library.cpp.o
+[ 35%] Building CXX object lib/llvm/CMakeFiles/wasmedgeLLVM.dir/jit.cpp.o
+[ 35%] Building CXX object lib/host/wasi/CMakeFiles/wasmedgeHostModuleWasi.dir/clock-linux.cpp.o
+[ 35%] Building CXX object lib/host/wasi/CMakeFiles/wasmedgeHostModuleWasi.dir/inode-linux.cpp.o
+[ 35%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoaderFileMgr.dir/aot_section.cpp.o
+[ 36%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/table.cpp.o
+[ 36%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/global.cpp.o
+[ 37%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/elem.cpp.o
+[ 37%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/data.cpp.o
+[ 37%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/memory.cpp.o
+[ 38%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/export.cpp.o
+[ 38%] Built target spanTests
+[ 38%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/module.cpp.o
+[ 39%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/instantiate/tag.cpp.o
+[ 39%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/proxy.cpp.o
+[ 40%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/controlInstr.cpp.o
+[ 40%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/tableInstr.cpp.o
+[ 41%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/threadInstr.cpp.o
+[ 41%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/memoryInstr.cpp.o
+[ 41%] Built target wasmedgeCommonTests
+[ 42%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/variableInstr.cpp.o
+[ 42%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/refInstr.cpp.o
+[ 43%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/engine/engine.cpp.o
+[ 43%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/helper.cpp.o
+[ 43%] Building CXX object lib/executor/CMakeFiles/wasmedgeExecutor.dir/executor.cpp.o
+[ 43%] Linking CXX static library libwasmedgePO.a
+[ 43%] Built target wasmedgePO
+[ 44%] Building CXX object test/po/CMakeFiles/poTests.dir/gtest.cpp.o
+[ 45%] Building CXX object test/po/CMakeFiles/poTests.dir/help.cpp.o
+[ 45%] Building CXX object test/po/CMakeFiles/poTests.dir/po.cpp.o
+[ 45%] Building CXX object test/po/CMakeFiles/poTests.dir/subcommand.cpp.o
+[ 46%] Linking CXX static library libwasmedgeAOT.a
+[ 46%] Built target wasmedgeAOT
+[ 47%] Linking CXX executable wasmedgeErrinfoTests
+[ 47%] Building CXX object test/aot/CMakeFiles/wasmedgeAOTCacheTests.dir/AOTCacheTest.cpp.o
+[ 47%] Building CXX object test/aot/CMakeFiles/wasmedgeAOTBlake3Tests.dir/AOTBlake3Test.cpp.o
+[ 47%] Linking CXX static library libwasmedgeValidator.a
+[ 47%] Built target wasmedgeValidator
+[ 48%] Linking CXX static library libwasmedgeLoaderFileMgr.a
+[ 48%] Built target wasmedgeLoaderFileMgr
+[ 48%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderFileMgrTests.dir/filemgrTest.cpp.o
+[ 49%] Building CXX object lib/plugin/CMakeFiles/wasmedgePlugin.dir/plugin.cpp.o
+[ 50%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component.cpp.o
+[ 51%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component/instance.cpp.o
+[ 51%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component/sort.cpp.o
+[ 52%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component/type.cpp.o
+[ 52%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component/alias.cpp.o
+[ 53%] Linking CXX executable wasmedgeAOTBlake3Tests
+[ 53%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component/canonical.cpp.o
+[ 54%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component/start.cpp.o
+[ 55%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/module.cpp.o
+[ 54%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/component/import_export.cpp.o
+[ 55%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/section.cpp.o
+[ 55%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/description.cpp.o
+[ 56%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/segment.cpp.o
+[ 56%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/type.cpp.o
+[ 57%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/expression.cpp.o
+[ 57%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/ast/instruction.cpp.o
+[ 58%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/serialize/serial_description.cpp.o
+[ 58%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/serialize/serial_expression.cpp.o
+[ 59%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/serialize/serial_instruction.cpp.o
+[ 59%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/serialize/serial_module.cpp.o
+[ 60%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/serialize/serial_section.cpp.o
+[ 60%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/serialize/serial_segment.cpp.o
+[ 61%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/serialize/serial_type.cpp.o
+[ 61%] Building CXX object lib/loader/CMakeFiles/wasmedgeLoader.dir/loader.cpp.o
+[ 62%] Linking CXX executable wasmedgeAOTCacheTests
+[ 62%] Built target wasmedgeAOTBlake3Tests
+[ 62%] Built target wasmedgeErrinfoTests
+[ 63%] Linking CXX executable poTests
+[ 64%] Linking CXX static library libwasmedgeTestSpec.a
+[ 64%] Built target wasmedgeTestSpec
+[ 64%] Built target wasmedgeAOTCacheTests
+[ 64%] Built target poTests
+[ 65%] Linking CXX static library libwasmedgeExecutor.a
+[ 65%] Built target wasmedgeExecutor
+[ 65%] Linking CXX static library libwasmedgeLLVM.a
+[ 65%] Built target wasmedgeLLVM
+[ 66%] Linking CXX executable wasmedgeLoaderFileMgrTests
+[ 67%] Linking CXX static library libwasmedgeHostModuleWasi.a
+[ 67%] Built target wasmedgeHostModuleWasi
+[ 67%] Building CXX object test/host/wasi/CMakeFiles/wasiTests.dir/wasi.cpp.o
+[ 67%] Building CXX object test/host/socket/CMakeFiles/wasiSocketTests.dir/wasi_socket.cpp.o
+[ 68%] Building CXX object test/host/wasi/CMakeFiles/wasiTests.dir/linuxTest.cpp.o
+[ 68%] Linking CXX static library libwasmedgePlugin.a
+[ 68%] Built target wasmedgePlugin
+[ 69%] Linking CXX static library libwasmedgeLoader.a
+[ 69%] Built target wasmedgeLoader
+[ 69%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderSerializerTests.dir/serializeModuleTest.cpp.o
+[ 70%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderSerializerTests.dir/serializeSectionTest.cpp.o
+[ 71%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderSerializerTests.dir/serializeSegmentTest.cpp.o
+[ 71%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderSerializerTests.dir/serializeTypeTest.cpp.o
+[ 71%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderSerializerTests.dir/serializeInstructionTest.cpp.o
+[ 71%] Building CXX object lib/vm/CMakeFiles/wasmedgeVM.dir/vm.cpp.o
+[ 72%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderSerializerTests.dir/serializeExpressionTest.cpp.o
+[ 72%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderSerializerTests.dir/serializeDescriptionTest.cpp.o
+[ 73%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderASTTests.dir/sectionTest.cpp.o
+[ 73%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderASTTests.dir/moduleTest.cpp.o
+[ 74%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderASTTests.dir/segmentTest.cpp.o
+[ 74%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderASTTests.dir/typeTest.cpp.o
+[ 74%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderASTTests.dir/descriptionTest.cpp.o
+[ 75%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderASTTests.dir/expressionTest.cpp.o
+[ 75%] Building CXX object test/loader/CMakeFiles/wasmedgeLoaderASTTests.dir/instructionTest.cpp.o
+[ 75%] Built target wasmedgeLoaderFileMgrTests
+[ 75%] Linking CXX executable wasmedgeLoaderSerializerTests
+[ 76%] Linking CXX executable wasmedgeLoaderASTTests
+[ 76%] Built target wasmedgeLoaderSerializerTests
+[ 77%] Linking CXX executable wasiSocketTests
+[ 77%] Built target wasmedgeLoaderASTTests
+[ 77%] Linking CXX executable wasiTests
+[ 77%] Built target wasiSocketTests
+[ 77%] Built target wasiTests
+[ 78%] Linking CXX static library libwasmedgeVM.a
+[ 78%] Built target wasmedgeVM
+[ 78%] Building CXX object lib/driver/CMakeFiles/wasmedgeDriver.dir/compilerTool.cpp.o
+[ 78%] Building CXX object lib/driver/CMakeFiles/wasmedgeDriver.dir/uniTool.cpp.o
+[ 78%] Building CXX object lib/driver/CMakeFiles/wasmedgeDriver.dir/fuzzTool.cpp.o
+[ 79%] Building CXX object lib/driver/CMakeFiles/wasmedgeDriver.dir/runtimeTool.cpp.o
+[ 79%] Building CXX object test/host/mock/CMakeFiles/wasmedgeHostMockTests.dir/mockTest.cpp.o
+[ 79%] Building CXX object test/thread/CMakeFiles/wasmedgeThreadTests.dir/ThreadTest.cpp.o
+[ 80%] Building CXX object test/llvm/CMakeFiles/wasmedgeLLVMCoreTests.dir/LLVMcoreTest.cpp.o
+[ 81%] Building CXX object test/mixcall/CMakeFiles/wasmedgeMixcallTests.dir/mixcallTest.cpp.o
+[ 82%] Building CXX object lib/driver/CMakeFiles/wasmedgeDriver.dir/fuzzPO.cpp.o
+[ 83%] Building CXX object test/memlimit/CMakeFiles/wasmedgeMemLimitTests.dir/MemLimitTest.cpp.o
+[ 83%] Building CXX object test/executor/CMakeFiles/wasmedgeExecutorCoreTests.dir/ExecutorTest.cpp.o
+[ 83%] Linking CXX executable wasmedgeMemLimitTests
+[ 84%] Linking CXX executable wasmedgeThreadTests
+[ 85%] Linking CXX static library libwasmedgeDriver.a
+[ 85%] Built target wasmedgeDriver
+[ 85%] Linking CXX executable wasmedgeMixcallTests
+[ 85%] Building CXX object lib/api/CMakeFiles/wasmedgeCAPI.dir/wasmedge.cpp.o
+[ 85%] Built target wasmedgeMemLimitTests
+[ 86%] Linking CXX executable wasmedgeExecutorCoreTests
+[ 86%] Linking CXX executable wasmedgeLLVMCoreTests
+[ 86%] Built target wasmedgeThreadTests
+[ 86%] Built target wasmedgeMixcallTests
+[ 87%] Linking CXX executable wasmedgeHostMockTests
+[ 87%] Built target wasmedgeCAPI
+[ 88%] Linking CXX shared library libwasmedge.so
+[ 88%] Built target wasmedgeExecutorCoreTests
+[ 88%] Built target wasmedgeLLVMCoreTests
+[ 88%] Built target wasmedgeHostMockTests
+[ 88%] Built target wasmedge_shared
+[ 90%] Building C object test/plugins/unittest/CMakeFiles/wasmedgePluginTestModuleC.dir/testplugin.c.o
+[ 91%] Building CXX object tools/wasmedge/CMakeFiles/wasmedge.dir/wasmedge.cpp.o
+[ 91%] Building CXX object test/plugins/unittest/CMakeFiles/wasmedgePluginUnittestsCPP.dir/unittest_cpp.cpp.o
+[ 91%] Building C object test/api/CMakeFiles/wasmedgeAPITestHelpers.dir/hostfunc_c.c.o
+[ 92%] Building CXX object test/api/CMakeFiles/wasmedgeAPITestHelpers.dir/helper.cpp.o
+[ 93%] Building CXX object test/plugins/unittest/CMakeFiles/wasmedgePluginUnittestsC.dir/unittest_c.cpp.o
+[ 93%] Building CXX object test/externref/CMakeFiles/wasmedgeExternrefTests.dir/ExternrefTest.cpp.o
+[ 94%] Building CXX object test/plugins/unittest/CMakeFiles/wasmedgePluginTestModuleCPP.dir/testplugin.cpp.o
+[ 94%] Building CXX object tools/wasmedge/CMakeFiles/wasmedgec.dir/wasmedgec.cpp.o
+[ 94%] Linking CXX executable wasmedge
+[ 94%] Linking CXX shared library libwasmedgePluginTestModuleC.so
+[ 95%] Linking CXX executable wasmedgec
+[ 95%] Built target wasmedgePluginTestModuleC
+[ 95%] Built target wasmedgec
+[ 95%] Built target wasmedge
+[ 95%] Linking CXX executable wasmedgePluginUnittestsC
+[ 96%] Linking CXX executable wasmedgeExternrefTests
+[ 96%] Built target wasmedgePluginUnittestsC
+[ 96%] Linking CXX static library libwasmedgeAPITestHelpers.a
+[ 96%] Built target wasmedgeAPITestHelpers
+[ 97%] Building CXX object test/api/CMakeFiles/wasmedgeAPIStepsCoreTests.dir/APIStepsCoreTest.cpp.o
+[ 97%] Building CXX object test/api/CMakeFiles/wasmedgeAPIAOTCoreTests.dir/APIAOTCoreTest.cpp.o
+[ 97%] Building CXX object test/api/CMakeFiles/wasmedgeAPIUnitTests.dir/APIUnitTest.cpp.o
+[ 98%] Building CXX object test/api/CMakeFiles/wasmedgeAPIVMCoreTests.dir/APIVMCoreTest.cpp.o
+[ 98%] Built target wasmedgeExternrefTests
+[ 98%] Linking CXX shared library libwasmedgePluginTestModuleCPP.so
+[ 98%] Linking CXX executable wasmedgePluginUnittestsCPP
+[ 99%] Linking CXX executable wasmedgeAPIAOTCoreTests
+[ 99%] Linking CXX executable wasmedgeAPIVMCoreTests
+[100%] Linking CXX executable wasmedgeAPIStepsCoreTests
+[100%] Built target wasmedgePluginTestModuleCPP
+[100%] Built target wasmedgePluginUnittestsCPP
+[100%] Built target wasmedgeAPIAOTCoreTests
+[100%] Built target wasmedgeAPIStepsCoreTests
+[100%] Built target wasmedgeAPIVMCoreTests
+[100%] Linking CXX executable wasmedgeAPIUnitTests
+[100%] Built target wasmedgeAPIUnitTests
+
+
+
+#-------------------------------------- running Tests----------------------------------------------
+
+
+root@8d740c688ddf:~/wasmedge/build# LD_LIBRARY_PATH=$(pwd)/lib/api ctest
+Test project /root/wasmedge/build
+      Start  1: wasmedgeAOTCacheTests
+ 1/25 Test  #1: wasmedgeAOTCacheTests ............   Passed    0.01 sec
+      Start  2: wasmedgeAOTBlake3Tests
+ 2/25 Test  #2: wasmedgeAOTBlake3Tests ...........   Passed    0.01 sec
+      Start  3: wasmedgeLLVMCoreTests
+ 3/25 Test  #3: wasmedgeLLVMCoreTests ............   Passed   28.41 sec
+      Start  4: wasmedgeMixcallTests
+ 4/25 Test  #4: wasmedgeMixcallTests .............   Passed    0.07 sec
+      Start  5: wasmedgeCommonTests
+ 5/25 Test  #5: wasmedgeCommonTests ..............   Passed    0.00 sec
+      Start  6: wasmedgeLoaderFileMgrTests
+ 6/25 Test  #6: wasmedgeLoaderFileMgrTests .......   Passed    0.01 sec
+      Start  7: wasmedgeLoaderASTTests
+ 7/25 Test  #7: wasmedgeLoaderASTTests ...........   Passed    0.01 sec
+      Start  8: wasmedgeLoaderSerializerTests
+ 8/25 Test  #8: wasmedgeLoaderSerializerTests ....   Passed    0.00 sec
+      Start  9: wasmedgeExecutorCoreTests
+ 9/25 Test  #9: wasmedgeExecutorCoreTests ........   Passed    1.08 sec
+      Start 10: wasmedgeThreadTests
+10/25 Test #10: wasmedgeThreadTests ..............   Passed    0.88 sec
+      Start 11: wasmedgeAPIUnitTests
+11/25 Test #11: wasmedgeAPIUnitTests .............   Passed    0.11 sec
+      Start 12: wasmedgeAPIVMCoreTests
+12/25 Test #12: wasmedgeAPIVMCoreTests ...........   Passed    1.21 sec
+      Start 13: wasmedgeAPIStepsCoreTests
+13/25 Test #13: wasmedgeAPIStepsCoreTests ........   Passed    1.12 sec
+      Start 14: wasmedgeAPIAOTCoreTests
+14/25 Test #14: wasmedgeAPIAOTCoreTests ..........   Passed    7.88 sec
+      Start 15: wasmedgeExternrefTests
+15/25 Test #15: wasmedgeExternrefTests ...........   Passed    0.04 sec
+      Start 16: wasmedgePluginUnittestsC
+16/25 Test #16: wasmedgePluginUnittestsC .........   Passed    0.02 sec
+      Start 17: wasmedgePluginUnittestsCPP
+17/25 Test #17: wasmedgePluginUnittestsCPP .......   Passed    0.02 sec
+      Start 18: wasiSocketTests
+18/25 Test #18: wasiSocketTests ..................   Passed    0.01 sec
+      Start 19: wasiTests
+19/25 Test #19: wasiTests ........................   Passed   10.41 sec
+      Start 20: wasmedgeHostMockTests
+20/25 Test #20: wasmedgeHostMockTests ............   Passed    0.02 sec
+      Start 21: expectedTests
+21/25 Test #21: expectedTests ....................   Passed    0.00 sec
+      Start 22: spanTests
+22/25 Test #22: spanTests ........................   Passed    0.00 sec
+      Start 23: poTests
+23/25 Test #23: poTests ..........................   Passed    0.00 sec
+      Start 24: wasmedgeMemLimitTests
+24/25 Test #24: wasmedgeMemLimitTests ............   Passed    0.02 sec
+      Start 25: wasmedgeErrinfoTests
+25/25 Test #25: wasmedgeErrinfoTests .............   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 25
+
+Total Test time (real) =  51.43 sec
