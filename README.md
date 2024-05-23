@@ -21,11 +21,13 @@ Firmware Version: FCCN18WW
 
 To build the piper Framework first we need to have Piper-phonemize in the ```lib/linux-x86_64/``` directory.
  
-I cloned the [forked repo]() from my github and build using docker :
+I cloned the [forked repo](https://github.com/AZM999/piper-phonemize) from my github and build using docker :
+
 ```docker buildx build . -t piper-phonemize --output 'type=local,dest=dist'```
+
 then I copied the piper-phonemize folder into the ```/lib/x86_64-linux-gnu/``` folder.
 
-Clone the [fork of Piper] to my local directory.
+Clone the [fork of Piper](https://github.com/AZM999/piper) to my local directory.
 I then made a build folder inside piper directory.
 
 ```
