@@ -83,6 +83,6 @@ then I tested the build by running tests :
 ```
 LD_LIBRARY_PATH=$(pwd)/lib/api ctest
 ```
-![wasmedge-test](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_test.png)
+![wasmedge-test](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/WasmEdge_build_test.png)
 
 
