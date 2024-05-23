@@ -84,7 +84,7 @@ cmake --build build
 
 cmake --install build
 ```
-The build logs for WasmEdge Can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/build_log_wasmedge.txt)
+The build logs for WasmEdge with llama.cpp Can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/build_log_wasmedge.txt) 
 
 then I tested the build by running tests :
 ```
