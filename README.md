@@ -1,5 +1,5 @@
 
-# Pre-Taska for LFX Mentorship project " Support piper as a new backend of the WASI-NN WasmEdge plugin"
+# Pre-Tasks for LFX Mentorship project " Support piper as a new backend of the WASI-NN WasmEdge plugin"
 
 This repo contains the record of pre-qualifying task for the LFX Mentorship project. 
 I am using Debian 12 Bookworm 
@@ -85,4 +85,21 @@ LD_LIBRARY_PATH=$(pwd)/lib/api ctest
 ```
 ![wasmedge-test](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/WasmEdge_build_test.png)
 
+To run ```llama2-7b``` I followed the following [repo](https://github.com/second-state/WasmEdge-WASINN-examples)
 
+Compiling the application to Wasm :
+```
+cd llama
+cargo build --target wasm32-wasi --release
+```
+Downloading Model :
+```
+curl -LO https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_K_M.gguf
+```
+Running the ```Llama-2-7b-Chat-GGUF``` model :
+```
+wasmedge --dir .:. \
+  --nn-preload default:GGML:AUTO:llama-2-7b-chat.Q5_K_M.gguf \
+  wasmedge-ggml-llama.wasm default
+```
+![llama-test](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/llama.cpp_example_wasedge-ggml.png)
