@@ -26,25 +26,33 @@ then I copied the piper-phonemize folder into the ```/lib/x86_64-linux-gnu/``` f
 
 Clone the [fork of Piper] to my local directory.
 I then made a build folder inside piper directory.
-```mkdir build
-   cd build/
+
+```
+mkdir build
+cd build/
+
 ```
 since the ```CMakeLists.txt``` is in the folder above.
 
-```cmake .. && make . &&> piper_build_logs.txt
 ```
-build logs can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_logs.txt)
+cmake .. && make . &&> piper_build_logs.txt
+
+```
+build logs for piper can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_logs.txt)
 
 checking if piper is installed correctly :
-```> ./piper --version
+```
+> ./piper --version
      1.2.0
 ```
 
 after the build was successfull I downloaded a [voice](https://huggingface.co/rhasspy/piper-voices) and a config file and placed it inside the same folder. I chose "lessac_en_US" voice.
 
 then I tested piper with the followwing command :
-```echo 'Welcome to the world of speech synthesis!, the build has been successfull' | \
-  ./piper --model en_US-lessac-medium.onnx --output_file welcome.wav```
+```
+echo 'Welcome to the world of speech synthesis!, the build has been successfull' | \
+  ./piper --model en_US-lessac-medium.onnx --output_file welcome.wav
+```
 
 ![alt text](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_test.png?raw=true)
 
