@@ -20,7 +20,7 @@ Firmware Version: FCCN18WW
 
 <img width="1440" alt="modifi" src="https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_test.png">
 
-
+![alt text](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_test.png?raw=true)
 
 ## 2. Build WasmEdge 
 
