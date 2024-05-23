@@ -1,0 +1,126 @@
+ 
+cmake -GNinja -Bbuild -DCMAKE_BUILD_TYPE=Release   -DCMAKE_CUDA_ARCHITECTURES="60;61;70"   -DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc   -DWASMEDGE_PLUGIN_WASI_NN_BACKEND="GGML"   -DWASMEDGE_PLUGIN_WASI_NN_GGML_LLAMA_BLAS=OFF   -DWASMEDGE_PLUGIN_WASI_NN_GGML_LLAMA_CUBLAS=ON   .
+
+-- The CXX compiler identification is GNU 12.2.0
+-- The C compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+fatal: No names found, cannot describe anything.
+-- Looking for C++ include filesystem
+-- Looking for C++ include filesystem - found
+-- Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED
+-- Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED - Success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for C++ include pwd.h
+-- Looking for C++ include pwd.h - found
+-- Performing Test HAVE_FFI_CALL
+-- Performing Test HAVE_FFI_CALL - Success
+-- Found FFI: /usr/lib/x86_64-linux-gnu/libffi.so
+-- Performing Test Terminfo_LINKABLE
+-- Performing Test Terminfo_LINKABLE - Success
+-- Found Terminfo: /usr/lib/x86_64-linux-gnu/libtinfo.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.13")
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.14")
+-- Linker detection: GNU ld
+-- Performing Test SUPPORT_EXCLUDE_LIBS
+-- Performing Test SUPPORT_EXCLUDE_LIBS - Success
+-- Version: 10.2.1
+-- Build type: Release
+-- Build spdlog: 1.13.0
+-- Build type: Release
+-- WASI-NN GGML LLAMA backend: Enable LLAMA_NATIVE(AVX/AVX2/FMA)
+-- WASI-NN GGML LLAMA backend: Enable LLAMA_CUDA
+-- WASI-NN GGML LLAMA backend: Disable LLAMA_BLAS
+-- WASI-NN GGML LLAMA backend: Disable LLAMA_METAL
+-- Downloading llama.cpp source
+-- Found Git: /usr/bin/git (found version "2.39.2")
+-- Found CUDAToolkit: /usr/local/cuda/include (found version "12.2.91")
+-- CUDA found
+-- The CUDA compiler identification is NVIDIA 12.2.91
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Using CUDA architectures: 60;61;70
+-- Warning: ccache not found - consider installing it for faster compilation or disable this warning with LLAMA_CCACHE=OFF
+-- CMAKE_SYSTEM_PROCESSOR: x86_64
+-- x86 detected
+-- SIMDJSON found
+-- WASI-NN: Build ggml backend for WASI-NN
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azm/projects/WasmEdge/build
+
+
+
+ cmake --build build
+
+[123/178] Generating build details from Git
+-- Found Git: /usr/bin/git (found version "2.39.2")
+[178/178] Linking CXX shared library plugins/wasi_nn/libwasmedgePluginWasiNN.so
+
+
+ sudo cmake --install build
+[sudo] password for azm:
+
+-- Install configuration: "Release"
+-- Installing: /usr/local/lib/libfmt.a
+-- Installing: /usr/local/include/fmt/args.h
+-- Installing: /usr/local/include/fmt/chrono.h
+-- Installing: /usr/local/include/fmt/color.h
+-- Installing: /usr/local/include/fmt/compile.h
+-- Installing: /usr/local/include/fmt/core.h
+-- Installing: /usr/local/include/fmt/format.h
+-- Installing: /usr/local/include/fmt/format-inl.h
+-- Installing: /usr/local/include/fmt/os.h
+-- Installing: /usr/local/include/fmt/ostream.h
+-- Installing: /usr/local/include/fmt/printf.h
+-- Installing: /usr/local/include/fmt/ranges.h
+-- Installing: /usr/local/include/fmt/std.h
+-- Installing: /usr/local/include/fmt/xchar.h
+-- Installing: /usr/local/lib/cmake/fmt/fmt-config.cmake
+-- Installing: /usr/local/lib/cmake/fmt/fmt-config-version.cmake
+-- Installing: /usr/local/lib/cmake/fmt/fmt-targets.cmake
+-- Installing: /usr/local/lib/cmake/fmt/fmt-targets-release.cmake
+-- Installing: /usr/local/lib/pkgconfig/fmt.pc
+-- Installing: /usr/local/lib/libwasmedge.so.0.1.0
+-- Up-to-date: /usr/local/lib/libwasmedge.so.0
+-- Set runtime path of "/usr/local/lib/libwasmedge.so.0.1.0" to "$ORIGIN"
+-- Up-to-date: /usr/local/lib/libwasmedge.so
+-- Installing: /usr/local/include/wasmedge/wasmedge.h
+-- Installing: /usr/local/include/wasmedge/version.h
+-- Installing: /usr/local/include/wasmedge/enum.inc
+-- Installing: /usr/local/include/wasmedge/enum_configure.h
+-- Installing: /usr/local/include/wasmedge/enum_errcode.h
+-- Installing: /usr/local/include/wasmedge/enum_types.h
+-- Installing: /usr/local/include/wasmedge/int128.h
+-- Installing: /usr/local/lib/cmake/Llama/LlamaConfig.cmake
+-- Installing: /usr/local/lib/cmake/Llama/LlamaConfigVersion.cmake
+-- Installing: /usr/local/include/ggml.h
+-- Installing: /usr/local/include/ggml-alloc.h
+-- Installing: /usr/local/include/ggml-backend.h
+-- Installing: /usr/local/include/ggml-cuda.h
+-- Installing: /usr/local/lib/libllama.a
+-- Installing: /usr/local/include/llama.h
+-- Installing: /usr/local/bin/convert.py
+-- Installing: /usr/local/lib/wasmedge/libwasmedgePluginWasiNN.so
+-- Set runtime path of "/usr/local/lib/wasmedge/libwasmedgePluginWasiNN.so" to "$ORIGIN"
+-- Installing: /usr/local/bin/wasmedgec
+-- Set runtime path of "/usr/local/bin/wasmedgec" to "$ORIGIN/../lib"
+-- Installing: /usr/local/bin/wasmedge
+-- Set runtime path of "/usr/local/bin/wasmedge" to "$ORIGIN/../lib"
