@@ -16,6 +16,7 @@ Operating System: Debian GNU/Linux 12 (bookworm)
 Firmware Version: FCCN18WW
 
 ```
+---
 ## 1. Build Piper Framework and Run sample applications
 
 To build the piper Framework first we need to have Piper-phonemize in the ```lib/linux-x86_64/``` directory. 
@@ -56,7 +57,7 @@ echo 'Welcome to the world of speech synthesis!, the build has been successfull'
 
 The output audio file [welcome.wav](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/welcome.wav)
 
-
+---
 ## 2. Build WasmEdge with llama.cpp
 To build WasmEdge I followed the following [guide](https://wasmedge.org/docs/contribute/source/plugin/wasi_nn)
 ```
