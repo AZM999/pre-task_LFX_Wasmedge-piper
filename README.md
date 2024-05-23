@@ -30,13 +30,11 @@ I then made a build folder inside piper directory.
 ```
 mkdir build
 cd build/
-
 ```
 since the ```CMakeLists.txt``` is in the folder above.
 
 ```
 cmake .. && make . &&> piper_build_logs.txt
-
 ```
 build logs for piper can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_logs.txt)
 
@@ -48,17 +46,43 @@ checking if piper is installed correctly :
 
 after the build was successfull I downloaded a [voice](https://huggingface.co/rhasspy/piper-voices) and a config file and placed it inside the same folder. I chose "lessac_en_US" voice.
 
-then I tested piper with the followwing command :
+then I Ran a sample tts in piper with the followwing command :
 ```
 echo 'Welcome to the world of speech synthesis!, the build has been successfull' | \
   ./piper --model en_US-lessac-medium.onnx --output_file welcome.wav
 ```
 
-![alt text](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_test.png?raw=true)
+![piper-test](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_test.png?raw=true)
 
 The output audio file [welcome.wav](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/welcome.wav)
 
 
-## 2. Build WasmEdge 
+## 2. Build WasmEdge with llama.cpp
+To build WasmEdge I followed the following [guide](https://wasmedge.org/docs/contribute/source/plugin/wasi_nn)
+```
+docker pull wasmedge/wasmedge
+docker rub -it --rm \
+    -v /home/azm/projects/WasmEdge/:/root/wasmedge \
+    wasmedge/wasmedge:latest
 
-## 3. Build WasmEdge with llama.cpp plugin
+cmake -GNinja -Bbuild -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CUDA_ARCHITECTURES="60;61;70" \
+  -DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc \
+  -DWASMEDGE_PLUGIN_WASI_NN_BACKEND="GGML" \
+  -DWASMEDGE_PLUGIN_WASI_NN_GGML_LLAMA_BLAS=OFF \
+  -DWASMEDGE_PLUGIN_WASI_NN_GGML_LLAMA_CUBLAS=ON \
+  .
+
+cmake --build build
+
+cmake --install build
+```
+The build logs for WasmEdge Can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/build_log_wasmedge.txt)
+
+then I tested the build by running tests :
+```
+LD_LIBRARY_PATH=$(pwd)/lib/api ctest
+```
+![wasmedge-test](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_build_test.png)
+
+
