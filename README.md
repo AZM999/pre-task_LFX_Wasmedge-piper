@@ -19,8 +19,8 @@ Firmware Version: FCCN18WW
 ---
 ## 1. Build Piper Framework and Run sample applications
 
-To build the piper Framework first we need to have Piper-phonemize in the ```lib/linux-x86_64/``` directory. 
-Clone the Piper-phonemize repo in local directory and 
+To build the piper Framework first we need to have Piper-phonemize in the ```lib/linux-x86_64/``` directory.
+ 
 I cloned the [forked repo]() from my github and build using docker :
 ```docker buildx build . -t piper-phonemize --output 'type=local,dest=dist'```
 then I copied the piper-phonemize folder into the ```/lib/x86_64-linux-gnu/``` folder.
@@ -45,7 +45,8 @@ checking if piper is installed correctly :
      1.2.0
 ```
 
-after the build was successfull I downloaded a [voice](https://huggingface.co/rhasspy/piper-voices) and a config file and placed it inside the same folder. I chose "lessac_en_US" voice.
+after the build was successfull I downloaded a [voice](https://huggingface.co/rhasspy/piper-voices) and a config file and placed it inside the same folder. 
+I chose "lessac_en_US" voice.
 
 then I Ran a sample tts in piper with the followwing command :
 ```
