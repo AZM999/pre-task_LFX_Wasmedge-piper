@@ -1,8 +1,8 @@
 
 # Pre-Tasks for LFX Mentorship project " Support piper as a new backend of the WASI-NN WasmEdge plugin"
 
-This repo contains the record of pre-qualifying task for the LFX Mentorship project. 
-I am using Debian 12 Bookworm 
+This repo contains the record of pre-qualifying task for the LFX Mentorship project under WasmEdge project. 
+I am currently using Debian 12 Bookworm 
 
 ``` Static hostname: debian
        Icon name: computer-laptop
@@ -16,6 +16,9 @@ Operating System: Debian GNU/Linux 12 (bookworm)
 Firmware Version: FCCN18WW
 
 ```
+My previous contribution to Piper Framework :
+
+- https://github.com/rhasspy/piper/issues/503
 ---
 ## 1. Build Piper Framework and Run sample applications
 
