@@ -76,7 +76,10 @@ to pass the JSON file as input we have to specify with ```--json-input``` flag.
 ```
 cat bge_nietzche.json | ./piper --model en_US-ryan-high.onnx --json-input --output_file bge_nietzche.wav 
 ```
-![piper-sample](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/bge_nietzche.json)
+![bge_nietzche.json](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/bge_nietzche.json)
+
+![piper-sample-bge](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/piper_sample_bge.png)
+
 
 the output file can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/bge_nietzche.wav)
 
