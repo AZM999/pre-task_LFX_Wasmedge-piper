@@ -65,7 +65,7 @@ The output audio file [welcome.wav](https://github.com/AZM999/pre-task_LFX_Wasme
 
 ---
 
-Now Lets Run a Sample application, lets convert the Paragraph 3 of Beyond Good and Evil by Fredrich nietzche from [here](https://www.gutenberg.org/files/4363/4363-h/4363-h.htm#link2HCH0001)
+Now Lets Run a Sample application, lets convert the Paragraph 3 of Beyond Good and Evil by Fredrich nietzche from [here](https://www.gutenberg.org/files/4363/4363-h/4363-h.htm#link2HCH0001) using a different "high model" voice [en_US-ryan-high](https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ryan)
 
 According to [README.md](https://github.com/rhasspy/piper/blob/master/README.md) file from piper we have to format the text in json format as text object with text field in ```.json``` file :
 ```
