@@ -63,6 +63,23 @@ echo 'Welcome to the world of speech synthesis!, the build has been successfull'
 
 The output audio file [welcome.wav](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/welcome.wav)
 
+Now Lets Run a Sample application, lets convert the Paragraph 3 of Beyond Good and Evil by Fredrich nietzche from [here](https://www.gutenberg.org/files/4363/4363-h/4363-h.htm#link2HCH0001)
+
+According to [README.md](https://github.com/rhasspy/piper/blob/master/README.md) file from piper we have to format the text in json format as text object with text field in ```.json``` file :
+```
+{ "text": "First sentence to speak." }
+{ "text": "Second sentence to speak." }
+```
+
+to pass the JSON file as input we have to specify with ```--json-input``` flag.
+
+```
+cat bge_nietzche.json | ./piper --model en_US-ryan-high.onnx --json-input --output_file bge_nietzche.wav 
+```
+![piper-sample](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/bge_nietzche.json)
+
+the output file can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/2e245e67e253ed8297a92dbe114ef9fdebb4f3d0/bge_nietzche.wav)
+
 ---
 ## 2. Build WasmEdge with llama.cpp
 To build WasmEdge I followed the following [guide](https://wasmedge.org/docs/contribute/source/plugin/wasi_nn)
