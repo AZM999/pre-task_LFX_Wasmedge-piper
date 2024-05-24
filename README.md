@@ -81,7 +81,7 @@ cat bge_nietzche.json | ./piper --model en_US-ryan-high.onnx --json-input --outp
 ![piper-sample-bge](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/c7dd19c0003fca2451f697ed5ff5a781d48aefe2/piper_sample_bge.png)
 
 
-the output file can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/c7dd19c0003fca2451f697ed5ff5a781d48aefe2/piper_sample_bge.wav)
+the output file can be found [here](https://github.com/AZM999/pre-task_LFX_Wasmedge-piper/blob/c7dd19c0003fca2451f697ed5ff5a781d48aefe2/bge_nietzche.wav)
 
 ---
 ## 2. Build WasmEdge with llama.cpp
